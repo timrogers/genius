@@ -24,9 +24,9 @@ describe Genius::Song do
     its(:title) { is_expected.to eq("Versace") }
 
     its(:media) do
-      is_expected.to eq([{ "type"=>"video",
-                           "provider"=>"youtube",
-                           "url"=>"http://www.youtube.com/watch?v=rF-hq_CHNH0" }])
+      is_expected.to eq([{ "type" => "video",
+                           "provider" => "youtube",
+                           "url" => "http://www.youtube.com/watch?v=rF-hq_CHNH0" }])
     end
 
     its(:description_annotation) { is_expected.to be_a(Hash) }
