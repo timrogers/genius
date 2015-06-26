@@ -1,5 +1,8 @@
 # Genius
 
+[![Build Status](https://travis-ci.org/timrogers/genius.svg)](https://travis-ci.org/timrogers/genius)
+[![Gem Version](https://badge.fury.io/rb/genius.svg)](http://badge.fury.io/rb/genius)
+
 ![Genius logo](http://assets.rapgenius.com/images/apple-touch-icon.png?1432674944)
 
 ## What does this do?
