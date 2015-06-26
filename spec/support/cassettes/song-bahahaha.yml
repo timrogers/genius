@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.genius.com/songs/bahahaha?text_format=plain
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 26 Jun 2015 19:27:27 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=deb2a82744dc1a341ad3c237cbb20ca471435346847; expires=Sat, 25-Jun-16
+        19:27:27 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 404 Not Found
+      X-Runtime:
+      - '5'
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Cache-Control:
+      - no-cache
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 1fcb4f437238136b-LHR
+    body:
+      encoding: UTF-8
+      string: '{"meta":{"status":404,"message":"404 Not Found"}}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 19:27:27 GMT
+recorded_with: VCR 2.5.0

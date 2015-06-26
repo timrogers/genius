@@ -1,5 +1,3 @@
-require 'httparty'
-
 module Genius
   class Annotation < Resource
     attr_reader :verified_by, :share_url, :body, :votes_total, :comment_count,

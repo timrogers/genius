@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.genius.com/account?text_format=plain
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 26 Jun 2015 20:01:03 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1325'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=ddbad57b1335568cde87cbfd380fb76cc1435348862; expires=Sat, 25-Jun-16
+        20:01:02 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 200 OK
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Etag:
+      - '"4aec31e5e00a5e73e2ad550774a6e4db"'
+      X-Runtime:
+      - '49'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 1fcb8078c8ad0622-LHR
+    body:
+      encoding: UTF-8
+      string: '{"response":{"user":{"current_user_metadata":{"permissions":["send_new_message","see_messages"]},"unread_messages_count":0,"role_for_display":"editor","avatar":{"medium":{"bounding_box":{"height":400,"width":300},"url":"http://images.rapgenius.com/avatars/medium/3923e847bb227e6100b42f7d27d93478"},"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/3923e847bb227e6100b42f7d27d93478"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/3923e847bb227e6100b42f7d27d93478"},"small":{"bounding_box":{"height":100,"width":100},"url":"http://images.rapgenius.com/avatars/small/3923e847bb227e6100b42f7d27d93478"},"original":{"bounding_box":{"height":2000,"width":2000},"url":"http://images.rapgenius.com/avatars/original/3923e847bb227e6100b42f7d27d93478"}},"artist":null,"api_path":"/users/128992","about_me":{"plain":"21
+        year old guy from London, UK. I work as an engineer at GoCardless (a UK finance
+        startup), study at the London School of Economics and am a RapGenius editor.\n\nI
+        wanted a RapGenius API \u2014 so I built my own. https://github.com/timrogers/rapgenius"},"name":"timrogers","iq":1691,"id":128992,"tracking_paths":{"aggregate":"/timrogers"},"login":"timrogers","unread_main_activity_inbox_count":36}},"meta":{"status":200}}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 20:01:03 GMT
+recorded_with: VCR 2.5.0

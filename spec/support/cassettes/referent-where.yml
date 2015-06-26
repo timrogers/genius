@@ -1,0 +1,181 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.genius.com/referents/?text_format=plain&web_page_id=10347
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 26 Jun 2015 20:48:38 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '29751'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d7fe2914b46a3fa5c0db77896a292bd451435351717; expires=Sat, 25-Jun-16
+        20:48:37 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 200 OK
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Etag:
+      - '"af9aa5fa5408df6751dd9907e42f8f90"'
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Runtime:
+      - '991'
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 1fcbc62a35970a90-LHR
+    body:
+      encoding: UTF-8
+      string: '{"response":{"referents":[{"annotatable":{"title":"Genius API","type":"WebPage","id":10347,"url":"http://genius.com/docs.genius.com"},"annotator_id":1821545,"annotations":[{"current_user_metadata":{"permissions":[],"interactions":{"vote":null,"cosign":false}},"share_url":"http://genius.com/6913377","pinned":false,"body":{"plain":"I
+        made a Node client for the Genius API: https://github.com/alexbooker/node-genius\n\nHopefully
+        someone will find it useful :)"},"votes_total":2,"verified_by":{"current_user_metadata":{"permissions":["send_new_message","send_message"]},"role_for_display":null,"tracking_paths":{"aggregate":"/bookerio"},"artist":null,"api_path":"/users/1821545","about_me":{"plain":""},"avatar":{"medium":{"bounding_box":{"height":400,"width":300},"url":"http://images.rapgenius.com/avatars/medium/17a78fb0ba0851ad4bcf207e0cab6bd0"},"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/17a78fb0ba0851ad4bcf207e0cab6bd0"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/17a78fb0ba0851ad4bcf207e0cab6bd0"},"small":{"bounding_box":{"height":100,"width":100},"url":"http://images.rapgenius.com/avatars/small/17a78fb0ba0851ad4bcf207e0cab6bd0"},"original":{"bounding_box":{"height":2000,"width":2000},"url":"http://images.rapgenius.com/avatars/original/17a78fb0ba0851ad4bcf207e0cab6bd0"}},"name":"bookerio","id":1821545,"iq":137,"login":"bookerio"},"authors":[{"attribution":1.0,"user":{"role_for_display":null,"avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/17a78fb0ba0851ad4bcf207e0cab6bd0"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/17a78fb0ba0851ad4bcf207e0cab6bd0"}},"name":"bookerio","id":1821545}}],"comment_count":2,"state":"verified","id":6913377,"url":"http://genius.com/6913377/docs.genius.com"}],"classification":"accepted","path":"/6913377/docs.genius.com","song_id":null,"fragment":"Making
+        Requests","range":{"start":"/div[2]/div[2]/h3[2]","endOffset":"15","before":"Genius.
+        The redirect_uri is used for authenticating Genius users with your application.
+        You can change it later. The API Client will belong to the user account signed
+        in to Genius when it''s created.\n\n","end":"/div[2]/div[2]/h3[2]","startOffset":"0","after":"\n\nThe
+        available endpoints are listed below in the resources section, along with
+        embedded examples showing how they work and what they return.\n\nGenius uses
+        OAuth2 for authentication. All API requests m","content":"Making Requests"},"api_path":"/referents/6913376","id":6913377,"url":"http://genius.com/6913377/docs.genius.com"},{"annotatable":{"title":"Genius
+        API","type":"WebPage","id":10347,"url":"http://genius.com/docs.genius.com"},"annotator_id":1821545,"annotations":[{"current_user_metadata":{"permissions":[],"interactions":{"vote":null,"cosign":false}},"share_url":"http://genius.com/6902423","pinned":false,"body":{"plain":"Could
+        someone please elaborate on what the cannonical_url is? I notice that the
+        jQuery source code does not have one but this page does. What\u2019s more,
+        when I use the value from the link tag, in the case of this website, \u201chttps://docs.genius.com/\u201d,
+        I get a 404."},"votes_total":0,"verified_by":{"current_user_metadata":{"permissions":["send_new_message","send_message"]},"role_for_display":null,"tracking_paths":{"aggregate":"/bookerio"},"artist":null,"api_path":"/users/1821545","about_me":{"plain":""},"avatar":{"medium":{"bounding_box":{"height":400,"width":300},"url":"http://images.rapgenius.com/avatars/medium/17a78fb0ba0851ad4bcf207e0cab6bd0"},"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/17a78fb0ba0851ad4bcf207e0cab6bd0"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/17a78fb0ba0851ad4bcf207e0cab6bd0"},"small":{"bounding_box":{"height":100,"width":100},"url":"http://images.rapgenius.com/avatars/small/17a78fb0ba0851ad4bcf207e0cab6bd0"},"original":{"bounding_box":{"height":2000,"width":2000},"url":"http://images.rapgenius.com/avatars/original/17a78fb0ba0851ad4bcf207e0cab6bd0"}},"name":"bookerio","id":1821545,"iq":137,"login":"bookerio"},"authors":[{"attribution":1.0,"user":{"role_for_display":null,"avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/17a78fb0ba0851ad4bcf207e0cab6bd0"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/17a78fb0ba0851ad4bcf207e0cab6bd0"}},"name":"bookerio","id":1821545}}],"comment_count":4,"state":"verified","id":6902423,"url":"http://genius.com/6902423/docs.genius.com"}],"classification":"accepted","path":"/6902423/docs.genius.com","song_id":null,"fragment":"Canonical_url","range":{"start":"/div[2]/div[2]/div[20]/table[1]/tbody[1]/tr[2]/td[1]/strong[1]/code[1]","endOffset":"13","before":"many
+        of the following variants of the URL as possible:\n\n\n\n\n  \n    \n      raw_annotatable_url\n      \n        The
+        URL as it would appear in a browser\n        \n          \n        \n      \n    \n    \n      ","end":"/div[2]/div[2]/div[20]/table[1]/tbody[1]/tr[2]/td[1]/strong[1]/code[1]","startOffset":"0","content":"canonical_url","after":"\n      \n        The
+        URL as specified by an appropriate <link> tag in a page''s <head>\n        \n          \n        \n      \n    \n    \n      og_url\n      \n        The
+        URL as specified by an og:url <meta> "},"api_path":"/referents/6902422","id":6902423,"url":"http://genius.com/6902423/docs.genius.com"},{"annotatable":{"title":"Genius
+        API","type":"WebPage","id":10347,"url":"http://genius.com/docs.genius.com"},"annotator_id":1821545,"annotations":[{"current_user_metadata":{"permissions":[],"interactions":{"vote":null,"cosign":false}},"share_url":"http://genius.com/6899628","pinned":false,"body":{"plain":"Might
+        I suggest that, when you attempt to \u201cunvote\u201d a vote that does not
+        exist, that you either return an error or some indication that the consumer
+        got the wrong annotation ID. Thank you."},"votes_total":0,"verified_by":{"current_user_metadata":{"permissions":["send_new_message","send_message"]},"role_for_display":null,"tracking_paths":{"aggregate":"/bookerio"},"artist":null,"api_path":"/users/1821545","about_me":{"plain":""},"avatar":{"medium":{"bounding_box":{"height":400,"width":300},"url":"http://images.rapgenius.com/avatars/medium/17a78fb0ba0851ad4bcf207e0cab6bd0"},"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/17a78fb0ba0851ad4bcf207e0cab6bd0"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/17a78fb0ba0851ad4bcf207e0cab6bd0"},"small":{"bounding_box":{"height":100,"width":100},"url":"http://images.rapgenius.com/avatars/small/17a78fb0ba0851ad4bcf207e0cab6bd0"},"original":{"bounding_box":{"height":2000,"width":2000},"url":"http://images.rapgenius.com/avatars/original/17a78fb0ba0851ad4bcf207e0cab6bd0"}},"name":"bookerio","id":1821545,"iq":137,"login":"bookerio"},"authors":[{"attribution":1.0,"user":{"role_for_display":null,"avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/17a78fb0ba0851ad4bcf207e0cab6bd0"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/17a78fb0ba0851ad4bcf207e0cab6bd0"}},"name":"bookerio","id":1821545}}],"comment_count":2,"state":"verified","id":6899628,"url":"http://genius.com/6899628/docs.genius.com"}],"classification":"accepted","path":"/6899628/docs.genius.com","song_id":null,"fragment":"
+        PUT /annotations/:id/unvote    \n\n","range":{"start":"/div[2]/div[2]/div[10]/h4[1]","endOffset":"0","before":"henticated
+        user.\n\n\n\n\n  \n    \n      \n    \n  \n  PUT /annotations/:id/upvote\n  Requires
+        scope: vote\n\nVotes positively for the annotation on behalf of the authenticated
+        user.\n\n\n\n\n  \n    \n      \n    \n  \n  ","end":"/div[2]/div[2]/div[10]/p[1]/strong[1]","startOffset":"0","after":"Requires
+        scope: vote\n\nRemoves the authenticated user''s vote (up or down) for the
+        annotation.\n\n\n\n\n  \n    \n      \n    \n  \n  PUT /annotations/:id/downvote\n  Requires
+        scope: vote\n\nVotes negatively for the","content":"PUT /annotations/:id/unvote\n  "},"api_path":"/referents/6899627","id":6899628,"url":"http://genius.com/6899628/docs.genius.com"},{"annotatable":{"title":"Genius
+        API","type":"WebPage","id":10347,"url":"http://genius.com/docs.genius.com"},"annotator_id":1821545,"annotations":[{"current_user_metadata":{"permissions":[],"interactions":{"vote":null,"cosign":false}},"share_url":"http://genius.com/6898800","pinned":false,"body":{"plain":"When
+        I invoke this endpoint with the \u201cvote\u201d scope, I get a successful
+        response but alas, when I go to the web page manually, there is no registered
+        upvote. What could be happening here? Thank you."},"votes_total":0,"verified_by":{"current_user_metadata":{"permissions":["send_new_message","send_message"]},"role_for_display":null,"tracking_paths":{"aggregate":"/bookerio"},"artist":null,"api_path":"/users/1821545","about_me":{"plain":""},"avatar":{"medium":{"bounding_box":{"height":400,"width":300},"url":"http://images.rapgenius.com/avatars/medium/17a78fb0ba0851ad4bcf207e0cab6bd0"},"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/17a78fb0ba0851ad4bcf207e0cab6bd0"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/17a78fb0ba0851ad4bcf207e0cab6bd0"},"small":{"bounding_box":{"height":100,"width":100},"url":"http://images.rapgenius.com/avatars/small/17a78fb0ba0851ad4bcf207e0cab6bd0"},"original":{"bounding_box":{"height":2000,"width":2000},"url":"http://images.rapgenius.com/avatars/original/17a78fb0ba0851ad4bcf207e0cab6bd0"}},"name":"bookerio","id":1821545,"iq":137,"login":"bookerio"},"authors":[{"attribution":1.0,"user":{"role_for_display":null,"avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/17a78fb0ba0851ad4bcf207e0cab6bd0"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/17a78fb0ba0851ad4bcf207e0cab6bd0"}},"name":"bookerio","id":1821545}}],"comment_count":4,"state":"verified","id":6898800,"url":"http://genius.com/6898800/docs.genius.com"}],"classification":"accepted","path":"/6898800/docs.genius.com","song_id":null,"fragment":"
+        PUT /annotations/:id/upvote    \n\n","range":{"start":"/div[2]/div[2]/div[9]/h4[1]","endOffset":"0","before":"POST
+        /annotation above.\n\n\n\n\n  \n    \n      \n    \n  \n  DELETE /annotations/:id\n  Requires
+        scope: manage_annotation\n\nDeletes an annotation created by the authenticated
+        user.\n\n\n\n\n  \n    \n      \n    \n  \n  ","end":"/div[2]/div[2]/div[9]/p[1]/strong[1]","startOffset":"0","after":"Requires
+        scope: vote\n\nVotes positively for the annotation on behalf of the authenticated
+        user.\n\n\n\n\n  \n    \n      \n    \n  \n  PUT /annotations/:id/unvote\n  Requires
+        scope: vote\n\nRemoves the authenticate","content":"PUT /annotations/:id/upvote\n  "},"api_path":"/referents/6898799","id":6898800,"url":"http://genius.com/6898800/docs.genius.com"},{"annotatable":{"title":"Genius
+        API","type":"WebPage","id":10347,"url":"http://genius.com/docs.genius.com"},"annotator_id":1821545,"annotations":[{"current_user_metadata":{"permissions":[],"interactions":{"vote":null,"cosign":false}},"share_url":"http://genius.com/6896284","pinned":false,"body":{"plain":"Is
+        it possible to specify more than one scope? If yes, what delimiter should
+        I use (comma, space, etc.)? Thank you. @john"},"votes_total":2,"verified_by":{"current_user_metadata":{"permissions":["send_new_message","send_message"]},"role_for_display":null,"tracking_paths":{"aggregate":"/bookerio"},"artist":null,"api_path":"/users/1821545","about_me":{"plain":""},"avatar":{"medium":{"bounding_box":{"height":400,"width":300},"url":"http://images.rapgenius.com/avatars/medium/17a78fb0ba0851ad4bcf207e0cab6bd0"},"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/17a78fb0ba0851ad4bcf207e0cab6bd0"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/17a78fb0ba0851ad4bcf207e0cab6bd0"},"small":{"bounding_box":{"height":100,"width":100},"url":"http://images.rapgenius.com/avatars/small/17a78fb0ba0851ad4bcf207e0cab6bd0"},"original":{"bounding_box":{"height":2000,"width":2000},"url":"http://images.rapgenius.com/avatars/original/17a78fb0ba0851ad4bcf207e0cab6bd0"}},"name":"bookerio","id":1821545,"iq":137,"login":"bookerio"},"authors":[{"attribution":1.0,"user":{"role_for_display":null,"avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/17a78fb0ba0851ad4bcf207e0cab6bd0"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/17a78fb0ba0851ad4bcf207e0cab6bd0"}},"name":"bookerio","id":1821545}}],"comment_count":4,"state":"verified","id":6896284,"url":"http://genius.com/6896284/docs.genius.com"}],"classification":"accepted","path":"/6896284/docs.genius.com","song_id":null,"fragment":"
+        Available Scopes   \n\n","range":{"start":"/div[2]/div[2]/h3[4]","endOffset":"0","before":"en
+        it''s only exchanged between servers. The client secret isn''t used, so it''s
+        much easier for potential attackers to fake authorization requests. Don''t
+        use the token flow if you don''t have to.\n\n\n  \n\n\n","end":"/div[2]/div[2]/p[25]","startOffset":"0","content":"Available
+        Scopes\n\n","after":"Access tokens can only be used for resources that are
+        covered by the scopes provided when they created. These are the available
+        scopes and the endpoints they grant permission for:\n\n\n  \n    \n      Scop"},"api_path":"/referents/6896283","id":6896284,"url":"http://genius.com/6896284/docs.genius.com"},{"annotatable":{"title":"Genius
+        API","type":"WebPage","id":10347,"url":"http://genius.com/docs.genius.com"},"annotator_id":1821545,"annotations":[{"current_user_metadata":{"permissions":[],"interactions":{"vote":null,"cosign":false}},"share_url":"http://genius.com/6891559","pinned":false,"body":{"plain":"I
+        think you forgot to document the \u201ctext_format\u201d property for this
+        endpoint! It seems to work if I add the query parameter manually but like
+        I say, no documentation!"},"votes_total":2,"verified_by":{"current_user_metadata":{"permissions":["send_new_message","send_message"]},"role_for_display":null,"tracking_paths":{"aggregate":"/bookerio"},"artist":null,"api_path":"/users/1821545","about_me":{"plain":""},"avatar":{"medium":{"bounding_box":{"height":400,"width":300},"url":"http://images.rapgenius.com/avatars/medium/17a78fb0ba0851ad4bcf207e0cab6bd0"},"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/17a78fb0ba0851ad4bcf207e0cab6bd0"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/17a78fb0ba0851ad4bcf207e0cab6bd0"},"small":{"bounding_box":{"height":100,"width":100},"url":"http://images.rapgenius.com/avatars/small/17a78fb0ba0851ad4bcf207e0cab6bd0"},"original":{"bounding_box":{"height":2000,"width":2000},"url":"http://images.rapgenius.com/avatars/original/17a78fb0ba0851ad4bcf207e0cab6bd0"}},"name":"bookerio","id":1821545,"iq":137,"login":"bookerio"},"authors":[{"attribution":1.0,"user":{"role_for_display":null,"avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/17a78fb0ba0851ad4bcf207e0cab6bd0"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/17a78fb0ba0851ad4bcf207e0cab6bd0"}},"name":"bookerio","id":1821545}}],"comment_count":2,"state":"verified","id":6891559,"url":"http://genius.com/6891559/docs.genius.com"}],"classification":"accepted","path":"/6891559/docs.genius.com","song_id":null,"fragment":"GET
+        /account","range":{"start":"/div[2]/div[2]/div[24]/h4[1]","endOffset":"12","before":",unread_messages_count:
+        0,name: \"bookerio\",role_for_display: null,id: 1821545,+identities: [...]}},+meta:
+        {...status: 200}}\n\n\n      \n  \n        Authenticate with the Docs App
+        to Try\n\n      \n    \n  \n  ","end":"/div[2]/div[2]/div[24]/h4[1]","startOffset":"0","after":"\n  Requires
+        scope: me\n\nAccount information for the currently authenticated user.\n\n\n\nAuthentication\n\n\n\nAccess
+        for Apps Without Users\nIf your application doesn''t include user-specific
+        behaviors you can ","content":"GET /account"},"api_path":"/referents/6891558","id":6891559,"url":"http://genius.com/6891559/docs.genius.com"},{"annotatable":{"title":"Genius
+        API","type":"WebPage","id":10347,"url":"http://genius.com/docs.genius.com"},"annotator_id":1821545,"annotations":[{"current_user_metadata":{"permissions":[],"interactions":{"vote":null,"cosign":false}},"share_url":"http://genius.com/6891554","pinned":false,"body":{"plain":"How
+        do I attain the lyrics for a song using your API? Thank you."},"votes_total":2,"verified_by":{"current_user_metadata":{"permissions":["send_new_message","send_message"]},"role_for_display":null,"tracking_paths":{"aggregate":"/bookerio"},"artist":null,"api_path":"/users/1821545","about_me":{"plain":""},"avatar":{"medium":{"bounding_box":{"height":400,"width":300},"url":"http://images.rapgenius.com/avatars/medium/17a78fb0ba0851ad4bcf207e0cab6bd0"},"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/17a78fb0ba0851ad4bcf207e0cab6bd0"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/17a78fb0ba0851ad4bcf207e0cab6bd0"},"small":{"bounding_box":{"height":100,"width":100},"url":"http://images.rapgenius.com/avatars/small/17a78fb0ba0851ad4bcf207e0cab6bd0"},"original":{"bounding_box":{"height":2000,"width":2000},"url":"http://images.rapgenius.com/avatars/original/17a78fb0ba0851ad4bcf207e0cab6bd0"}},"name":"bookerio","id":1821545,"iq":137,"login":"bookerio"},"authors":[{"attribution":1.0,"user":{"role_for_display":null,"avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/17a78fb0ba0851ad4bcf207e0cab6bd0"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/17a78fb0ba0851ad4bcf207e0cab6bd0"}},"name":"bookerio","id":1821545}}],"comment_count":4,"state":"verified","id":6891554,"url":"http://genius.com/6891554/docs.genius.com"}],"classification":"accepted","path":"/6891554/docs.genius.com","song_id":null,"fragment":"
+        GET /songs/:id    \n\n","range":{"start":"/div[2]/div[2]/div[15]/h4[1]","endOffset":"0","before":"ft-ryan-heffington-chandelier\"},url:
+        \"http://genius.com/Sia-chandelier-lyrics\",pyongs_count: 369}},+meta: {...status:
+        200}}\n\n\n      \n  \n        Authenticate with the Docs App to Try\n\n      \n    \n  \n  ","end":"/div[2]/div[2]/div[15]/p[1]","startOffset":"0","content":"GET
+        /songs/:id\n  ","after":"Data for a specific song.\n\n\n\n\n  \n    \n      id\n      \n        ID
+        of the song\n        \n        \n          \n        \n      \n    \n    \n      text_format\n      Format
+        for text bodies related to the docume"},"api_path":"/referents/6891553","id":6891554,"url":"http://genius.com/6891554/docs.genius.com"},{"annotatable":{"title":"Genius
+        API","type":"WebPage","id":10347,"url":"http://genius.com/docs.genius.com"},"annotator_id":1802439,"annotations":[{"current_user_metadata":{"permissions":[],"interactions":{"vote":null,"cosign":false}},"share_url":"http://genius.com/6764633","pinned":false,"body":{"plain":"should
+        this be og:url?"},"votes_total":1,"verified_by":{"current_user_metadata":{"permissions":["send_new_message","send_message"]},"role_for_display":null,"tracking_paths":{"aggregate":"/KoenHendrikx"},"artist":null,"api_path":"/users/1802439","about_me":{"plain":""},"avatar":{"medium":{"bounding_box":{"height":400,"width":300},"url":"http://images.rapgenius.com/avatars/medium/01767963158e27e914ee75a2f6d8b80b"},"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/01767963158e27e914ee75a2f6d8b80b"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/01767963158e27e914ee75a2f6d8b80b"},"small":{"bounding_box":{"height":100,"width":100},"url":"http://images.rapgenius.com/avatars/small/01767963158e27e914ee75a2f6d8b80b"},"original":{"bounding_box":{"height":2000,"width":2000},"url":"http://images.rapgenius.com/avatars/original/01767963158e27e914ee75a2f6d8b80b"}},"name":"KoenHendrikx","id":1802439,"iq":112,"login":"KoenHendrikx"},"authors":[{"attribution":1.0,"user":{"role_for_display":null,"avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/01767963158e27e914ee75a2f6d8b80b"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/01767963158e27e914ee75a2f6d8b80b"}},"name":"KoenHendrikx","id":1802439}}],"comment_count":5,"state":"verified","id":6764633,"url":"http://genius.com/6764633/docs.genius.com"}],"classification":"accepted","path":"/6764633/docs.genius.com","song_id":null,"fragment":"Og:title","range":{"start":"/div[2]/div[2]/div[6]/table[1]/tbody[1]/tr[3]/td[1]/table[1]/tbody[1]/tr[2]/td[2]/p[1]/code[2]","endOffset":"24","before":"
+        correct page\n                                                                              og_url                                                          The
+        content property of the <meta property=\"","end":"/div[2]/div[2]/div[6]/table[1]/tbody[1]/tr[3]/td[1]/table[1]/tbody[1]/tr[2]/td[2]/p[1]/code[2]","startOffset":"16","content":"og:title","after":"\">
+        tag on the page. Including it will help make sure newly created annotation
+        appear on the correct page\n                                                                              title            "},"api_path":"/referents/6764632","id":6764633,"url":"http://genius.com/6764633/docs.genius.com"},{"annotatable":{"title":"Genius
+        API","type":"WebPage","id":10347,"url":"http://genius.com/docs.genius.com"},"annotator_id":178687,"annotations":[{"current_user_metadata":{"permissions":[],"interactions":{"vote":null,"cosign":false}},"share_url":"http://genius.com/6757506","pinned":false,"body":{"plain":"Based
+        on the current implementation of this API, the ability to fetch annotations
+        (and other annotation-related meta data) for a given page, only works as long
+        as the page is not a Genius page itself \u2014 that is, if for example you
+        pass the url\n\nhttp://genius.com/Friedrich-nietzsche-book-i-european-nihilism-annotated\n\nas
+        the raw_annotatable-url in the web pages api call, it doesn\u2019t work as
+        you\u2019d imagine \u2014 though the page is on Genius, and though it already
+        has annotations on it, the results of the api call indicate that there is
+        no annotation data! This might not be a bug, but merely an omission on the
+        part of the API implementors.\n\nThe Genie extension I\u2019m currently developing,
+        currently can\u2019t easily show annotation counts for pages on Genius itself,
+        yet it does for pages elsewhere \u2014 assuming they\u2019ve been annotated
+        via Genius.it. This could be improved\u2026"},"votes_total":2,"verified_by":{"current_user_metadata":{"permissions":["send_new_message","send_message"]},"role_for_display":"editor","tracking_paths":{"aggregate":"/nemesisfixx"},"artist":null,"api_path":"/users/178687","about_me":{"plain":"The
+        only reason I occasionally listen to some Hip Hop works and not Techno or
+        Classical Music, is that if there\u2019s something that should be spoken over
+        the real music, it has to make a worthwhile point, and of music with the spoken
+        word, real Hip Hop is the work of true masters in this regard.\n\nI listen
+        to Hip Hop that has something to say: KRS-1, Jedi Mind Tricks, Immortal Technique,
+        Canibus, Rakim, Public Enemy and those other masters in that league.\n\n\n\nIn
+        my other life, I also love creating with tech, researching wyrd things, and
+        being in the wilderness\u2026"},"avatar":{"medium":{"bounding_box":{"height":400,"width":300},"url":"http://s3.amazonaws.com/rapgenius/avatars/medium/JOgYbQZOT8KjBIbPuwsW.jpg"},"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://s3.amazonaws.com/rapgenius/avatars/tiny/JOgYbQZOT8KjBIbPuwsW.jpg"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://s3.amazonaws.com/rapgenius/avatars/thumb/JOgYbQZOT8KjBIbPuwsW.jpg"},"small":{"bounding_box":{"height":100,"width":100},"url":"http://s3.amazonaws.com/rapgenius/avatars/small/JOgYbQZOT8KjBIbPuwsW.jpg"},"original":{"bounding_box":{"height":2000,"width":2000},"url":"http://s3.amazonaws.com/rapgenius/avatars/original/JOgYbQZOT8KjBIbPuwsW.jpg"}},"name":"nemesisfixx","id":178687,"iq":1547,"login":"nemesisfixx"},"authors":[{"attribution":1.0,"user":{"role_for_display":"editor","avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://s3.amazonaws.com/rapgenius/avatars/tiny/JOgYbQZOT8KjBIbPuwsW.jpg"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://s3.amazonaws.com/rapgenius/avatars/thumb/JOgYbQZOT8KjBIbPuwsW.jpg"}},"name":"nemesisfixx","id":178687}}],"comment_count":1,"state":"verified","id":6757506,"url":"http://genius.com/6757506/docs.genius.com"}],"classification":"accepted","path":"/6757506/docs.genius.com","song_id":null,"fragment":"A
+        web page is a single, publicly accessible page to which annotations may be
+        attached. Web pages map 1-to-1 with unique, canonical URLs.","range":{"start":"/div[2]/div[2]/div[19]/p[1]","endOffset":"136","before":"\n        \n          \n        \n      \n    \n    \n      page\n      \n        Paginated
+        offset, (e.g., per_page=5&page=3 returns songs 11\u201315)\n        \n          \n        \n      \n    \n  \n\n\n\n\n\n  Web
+        Pages\n  ","end":"/div[2]/div[2]/div[19]/p[1]","startOffset":"0","after":"\n\n\n\n\n  \n    \n      \n      api.genius.com/\n      \n      Try
+        It\n      Authorization: Bearer\n      \n      See details about using an
+        access token in the authentication section below.\n        {-response: ","content":"A
+        web page is a single, publicly accessible page to which annotations may be
+        attached. Web pages map 1-to-1 with unique, canonical URLs."},"api_path":"/referents/6757505","id":6757506,"url":"http://genius.com/6757506/docs.genius.com"},{"annotatable":{"title":"Genius
+        API","type":"WebPage","id":10347,"url":"http://genius.com/docs.genius.com"},"annotator_id":178687,"annotations":[{"current_user_metadata":{"permissions":[],"interactions":{"vote":null,"cosign":false}},"share_url":"http://genius.com/6746424","pinned":false,"body":{"plain":"I\u2019m
+        liking this!"},"votes_total":4,"verified_by":{"current_user_metadata":{"permissions":["send_new_message","send_message"]},"role_for_display":"editor","tracking_paths":{"aggregate":"/nemesisfixx"},"artist":null,"api_path":"/users/178687","about_me":{"plain":"The
+        only reason I occasionally listen to some Hip Hop works and not Techno or
+        Classical Music, is that if there\u2019s something that should be spoken over
+        the real music, it has to make a worthwhile point, and of music with the spoken
+        word, real Hip Hop is the work of true masters in this regard.\n\nI listen
+        to Hip Hop that has something to say: KRS-1, Jedi Mind Tricks, Immortal Technique,
+        Canibus, Rakim, Public Enemy and those other masters in that league.\n\n\n\nIn
+        my other life, I also love creating with tech, researching wyrd things, and
+        being in the wilderness\u2026"},"avatar":{"medium":{"bounding_box":{"height":400,"width":300},"url":"http://s3.amazonaws.com/rapgenius/avatars/medium/JOgYbQZOT8KjBIbPuwsW.jpg"},"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://s3.amazonaws.com/rapgenius/avatars/tiny/JOgYbQZOT8KjBIbPuwsW.jpg"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://s3.amazonaws.com/rapgenius/avatars/thumb/JOgYbQZOT8KjBIbPuwsW.jpg"},"small":{"bounding_box":{"height":100,"width":100},"url":"http://s3.amazonaws.com/rapgenius/avatars/small/JOgYbQZOT8KjBIbPuwsW.jpg"},"original":{"bounding_box":{"height":2000,"width":2000},"url":"http://s3.amazonaws.com/rapgenius/avatars/original/JOgYbQZOT8KjBIbPuwsW.jpg"}},"name":"nemesisfixx","id":178687,"iq":1547,"login":"nemesisfixx"},"authors":[{"attribution":1.0,"user":{"role_for_display":"editor","avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://s3.amazonaws.com/rapgenius/avatars/tiny/JOgYbQZOT8KjBIbPuwsW.jpg"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://s3.amazonaws.com/rapgenius/avatars/thumb/JOgYbQZOT8KjBIbPuwsW.jpg"}},"name":"nemesisfixx","id":178687}}],"comment_count":0,"state":"verified","id":6746424,"url":"http://genius.com/6746424/docs.genius.com"}],"classification":"accepted","path":"/6746424/docs.genius.com","song_id":null,"fragment":"You''ve
+        linked your Genius account with this site. You''re on your way to building
+        something great!","range":{"start":"/div[2]/div[2]/blockquote[2]/p[1]/strong[1]","endOffset":"97","before":"
+        endpoints by connecting your Genius account to this page. Learn how your app
+        can access Genius''s content and community this easily too!\n    \n    \n  \n            Authorize
+        With Genius\n    \n\n    \n\n\n\n  ","end":"/div[2]/div[2]/blockquote[2]/p[1]/strong[1]","startOffset":"0","content":"You''ve
+        linked your Genius account with this site. You''re on your way to building
+        something great!","after":"\n\n\n\n  Add Genius Annotations To Your Own Site\n  \n    In
+        addition to interacting with Genius annotations through the API, it''s easy
+        to make any page annotatable and display annotations you''ve created o"},"api_path":"/referents/6746423","id":6746424,"url":"http://genius.com/6746424/docs.genius.com"}]},"meta":{"status":200}}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 20:48:39 GMT
+recorded_with: VCR 2.5.0

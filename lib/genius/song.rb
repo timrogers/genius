@@ -1,5 +1,3 @@
-require 'httparty'
-
 module Genius
   class Song < Resource
     attr_reader :id, :url, :title, :media, :description_annotation, :annotation_count,

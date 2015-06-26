@@ -1,5 +1,3 @@
-require 'httparty'
-
 module Genius
   class Referent < Resource
     attr_reader :id, :url, :song_id, :annotator_id, :fragment, :range, :classification,
@@ -15,7 +13,7 @@ module Genius
 
       response = http_get("/#{resource_name}s/", query: params, headers: headers)
 
-      response["response"]["referents"].map do |referent|
+      response.parsed_response["response"]["referents"].map do |referent|
         self.from_hash(referent, text_format: params[:text_format])
       end
     end

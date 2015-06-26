@@ -29,7 +29,7 @@ module Genius
       self.class.find(id, params: { text_format: text_format })
     end
 
-    def self.http_get(path, query: query, headers: headers)
+    def self.http_get(path, query: {}, headers: {})
       response = get(path, query: query, headers: headers)
 
       case response.code
@@ -52,7 +52,7 @@ module Genius
       }
     end
 
-    def initialize(response, text_format: Genius.text_format, resource: resource)
+    def initialize(response, text_format: Genius.text_format, resource: nil)
       @raw_response = response
       @resource = resource || response.parsed_response["response"][resource_name]
       @text_format = text_format

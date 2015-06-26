@@ -1,0 +1,87 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.genius.com/search?q=The%20Hills&text_format=plain
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 26 Jun 2015 19:57:27 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '8421'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d8043ccacc1bc88a531beaddb82ecb07f1435348646; expires=Sat, 25-Jun-16
+        19:57:26 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 200 OK
+      X-Runtime:
+      - '649'
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      Etag:
+      - '"f838eaf42adfd8f5815a6905bd1329c3"'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 1fcb7b30001f0cb3-LHR
+    body:
+      encoding: UTF-8
+      string: '{"response":{"hits":[{"result":{"title":"The Hills","primary_artist":{"image_url":"http://images.rapgenius.com/581fa38475c389dd3c3071c9917e7071.500x310x1.png","name":"The
+        Weeknd","id":2358,"url":"http://genius.com/artists/The-weeknd"},"annotation_count":1,"pyongs_count":1004,"id":727466,"header_image_url":"http://images.rapgenius.com/db4da3c7533c25a56417ffecc0251b8b.598x170x1.png","url":"http://genius.com/The-weeknd-the-hills-lyrics"},"highlights":{}},{"result":{"title":"House
+        In The Hills","primary_artist":{"image_url":"http://images.rapgenius.com/0b37a2b5f4681a36879f42d5a9ca3243.600x600x1.jpg","name":"Wiz
+        Khalifa","id":310,"url":"http://genius.com/artists/Wiz-khalifa"},"annotation_count":1,"pyongs_count":22,"id":494510,"header_image_url":"http://images.rapgenius.com/fee01150693867b6cc3fa17c6b1df630.600x600x1.jpg","url":"http://genius.com/Wiz-khalifa-house-in-the-hills-lyrics"},"highlights":{}},{"result":{"title":"Over
+        the Hills and Far Away","primary_artist":{"image_url":"http://s3.amazonaws.com/rapgenius/1361996669_led-zeppelin-1280x1024.jpg","name":"Led
+        Zeppelin","id":562,"url":"http://genius.com/artists/Led-zeppelin"},"annotation_count":1,"pyongs_count":8,"id":110505,"header_image_url":"http://images.rapgenius.com/bc0bc382e3a7dd885bd313fd72201127.1000x1000x1.jpg","url":"http://genius.com/Led-zeppelin-over-the-hills-and-far-away-lyrics"},"highlights":{}},{"result":{"title":"To
+        The Hills","primary_artist":{"image_url":null,"name":"Laurel","id":88280,"url":"http://genius.com/artists/Laurel"},"annotation_count":1,"pyongs_count":2,"id":385235,"header_image_url":"//assets.rapgenius.com/images/default_cover_image.png?1435345810","url":"http://genius.com/Laurel-to-the-hills-lyrics"},"highlights":{}},{"result":{"title":"Run
+        To The Hills","primary_artist":{"image_url":"http://images.rapgenius.com/7ab94b0a4ec83e1a913fb10473647919.1000x647x1.jpg","name":"Iron
+        Maiden","id":22163,"url":"http://genius.com/artists/Iron-maiden"},"annotation_count":1,"pyongs_count":13,"id":111264,"header_image_url":"http://images.rapgenius.com/cce41933f32cfab00cd5cf4ed30f89a4.300x300x1.jpg","url":"http://genius.com/Iron-maiden-run-to-the-hills-lyrics"},"highlights":{}},{"result":{"title":"Come
+        to the Hills (We Must Win)","primary_artist":{"image_url":null,"name":"Amir
+        Sulaiman","id":3117,"url":"http://genius.com/artists/Amir-sulaiman"},"annotation_count":1,"pyongs_count":null,"id":349910,"header_image_url":"//assets.rapgenius.com/images/default_cover_image.png?1435345810","url":"http://genius.com/Amir-sulaiman-come-to-the-hills-we-must-win-annotated"},"highlights":{}},{"result":{"title":"Try
+        This Instead","primary_artist":{"image_url":null,"name":"Hallelujah The Hills","id":232577,"url":"http://genius.com/artists/Hallelujah-the-hills"},"annotation_count":1,"pyongs_count":2,"id":526645,"header_image_url":"http://images.rapgenius.com/5577b63cd4992b95344a209b5f7d5e27.650x400x1.jpg","url":"http://genius.com/Hallelujah-the-hills-try-this-instead-lyrics"},"highlights":{}},{"result":{"title":"Over
+        the Hills and Far Away","primary_artist":{"image_url":null,"name":"John Tams","id":49957,"url":"http://genius.com/artists/John-tams"},"annotation_count":1,"pyongs_count":null,"id":151101,"header_image_url":"//assets.rapgenius.com/images/default_cover_image.png?1435345810","url":"http://genius.com/John-tams-over-the-hills-and-far-away-annotated"},"highlights":{}},{"result":{"title":"An
+        altered look about the hills","primary_artist":{"image_url":"http://s3.amazonaws.com/rapgenius/emily2.jpg","name":"Emily
+        Dickinson","id":717,"url":"http://genius.com/artists/Emily-dickinson"},"annotation_count":1,"pyongs_count":null,"id":124771,"header_image_url":"http://s3.amazonaws.com/rapgenius/emily2.jpg","url":"http://genius.com/Emily-dickinson-an-altered-look-about-the-hills-annotated"},"highlights":{}},{"result":{"title":"From
+        the Hills","primary_artist":{"image_url":"http://s3.amazonaws.com/rapgenius/121522-raekwon.jpg","name":"Raekwon","id":76,"url":"http://genius.com/artists/Raekwon"},"annotation_count":1,"pyongs_count":null,"id":5421,"header_image_url":"http://s3.amazonaws.com/rapgenius/2980729857_1_3_xP6mS17a.jpg","url":"http://genius.com/Raekwon-from-the-hills-lyrics"},"highlights":{}},{"result":{"title":"\"I
+        Will Lift Up Mine Eyes Unto The Hills\"","primary_artist":{"image_url":"http://images.rapgenius.com/bpk1nd7rp4fo40edfioojk31l.457x581x1.jpg","name":"Christina
+        Rossetti","id":49022,"url":"http://genius.com/artists/Christina-rossetti"},"annotation_count":1,"pyongs_count":null,"id":148594,"header_image_url":"http://images.rapgenius.com/bpk1nd7rp4fo40edfioojk31l.457x581x1.jpg","url":"http://genius.com/Christina-rossetti-i-will-lift-up-mine-eyes-unto-the-hills-annotated"},"highlights":{}},{"result":{"title":"April
+        In the Hills","primary_artist":{"image_url":null,"name":"Archibald Lampman","id":41101,"url":"http://genius.com/artists/Archibald-lampman"},"annotation_count":1,"pyongs_count":null,"id":245495,"header_image_url":"//assets.rapgenius.com/images/default_cover_image.png?1435345810","url":"http://genius.com/Archibald-lampman-april-in-the-hills-annotated"},"highlights":{}},{"result":{"title":"My
+        Faith is larger than the Hills","primary_artist":{"image_url":"http://s3.amazonaws.com/rapgenius/emily2.jpg","name":"Emily
+        Dickinson","id":717,"url":"http://genius.com/artists/Emily-dickinson"},"annotation_count":1,"pyongs_count":null,"id":121452,"header_image_url":"http://s3.amazonaws.com/rapgenius/emily2.jpg","url":"http://genius.com/Emily-dickinson-my-faith-is-larger-than-the-hills-annotated"},"highlights":{}},{"result":{"title":"Over
+        the Hills and Far Away","primary_artist":{"image_url":"http://images.rapgenius.com/0e99ea7cfab901dfb2a0966c52044a33.620x371x1.jpg","name":"Nightwish","id":135153,"url":"http://genius.com/artists/Nightwish"},"annotation_count":1,"pyongs_count":null,"id":348702,"header_image_url":"http://images.rapgenius.com/0e99ea7cfab901dfb2a0966c52044a33.620x371x1.jpg","url":"http://genius.com/Nightwish-over-the-hills-and-far-away-lyrics"},"highlights":{}},{"result":{"title":"A
+        Ramble Among the Hills","primary_artist":{"image_url":"http://images.rapgenius.com/bd4eaccda6bb62acdd75a59ba264b5cb.702x1000x1.jpg","name":"Washington
+        Irving","id":27263,"url":"http://genius.com/artists/Washington-irving"},"annotation_count":1,"pyongs_count":null,"id":183188,"header_image_url":"http://images.rapgenius.com/bd4eaccda6bb62acdd75a59ba264b5cb.702x1000x1.jpg","url":"http://genius.com/Washington-irving-a-ramble-among-the-hills-annotated"},"highlights":{}},{"result":{"title":"The
+        Hills","primary_artist":{"image_url":null,"name":"St. Breeze","id":57185,"url":"http://genius.com/artists/St-breeze"},"annotation_count":1,"pyongs_count":null,"id":179142,"header_image_url":"http://s3.amazonaws.com/rapgenius/tUcOS6gHRJm957obm8hd_FileGuillaume_Apollinaire_foto.jpg.jpg","url":"http://genius.com/St-breeze-the-hills-lyrics"},"highlights":{}},{"result":{"title":"Alter!
+        When the Hills do","primary_artist":{"image_url":"http://s3.amazonaws.com/rapgenius/emily2.jpg","name":"Emily
+        Dickinson","id":717,"url":"http://genius.com/artists/Emily-dickinson"},"annotation_count":1,"pyongs_count":null,"id":121463,"header_image_url":"http://s3.amazonaws.com/rapgenius/emily2.jpg","url":"http://genius.com/Emily-dickinson-alter-when-the-hills-do-annotated"},"highlights":{}},{"result":{"title":"Breaktime","primary_artist":{"image_url":null,"name":"The
+        Hills","id":20189,"url":"http://genius.com/artists/The-hills"},"annotation_count":1,"pyongs_count":null,"id":80984,"header_image_url":"http://en.wikipedia.org/wiki/File:Human-Centiped-poster.jpg","url":"http://genius.com/The-hills-breaktime-lyrics"},"highlights":{}},{"result":{"title":"Do
+        it all","primary_artist":{"image_url":null,"name":"The Hills","id":20189,"url":"http://genius.com/artists/The-hills"},"annotation_count":1,"pyongs_count":null,"id":73585,"header_image_url":"http://s3.amazonaws.com/rapgenius/1336495844_220px-Derrick_Rose_03.jpg","url":"http://genius.com/The-hills-do-it-all-lyrics"},"highlights":{}},{"result":{"title":"Out
+        Where The Hills","primary_artist":{"image_url":null,"name":"Seatrain","id":360308,"url":"http://genius.com/artists/Seatrain"},"annotation_count":1,"pyongs_count":null,"id":999155,"header_image_url":"//assets.rapgenius.com/images/default_cover_image.png?1435345810","url":"http://genius.com/Seatrain-out-where-the-hills-lyrics"},"highlights":{}}]},"meta":{"status":200}}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 19:57:27 GMT
+recorded_with: VCR 2.5.0

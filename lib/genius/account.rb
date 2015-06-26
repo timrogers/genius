@@ -1,11 +1,9 @@
-require 'httparty'
-
 module Genius
   class Account < Resource
     resource_name "user"
 
-    attr_reader :unread_messages_count, :artist, :role_for_display, :identities, :iq,
-                :unread_main_activity_inbox_count, :avatar, :about_me, :channel_iqs,
+    attr_reader :unread_messages_count, :artist, :role_for_display, :iq,
+                :unread_main_activity_inbox_count, :avatar, :about_me,
                 :tracking_paths, :id, :current_user_metadata, :login, :name
 
     def parse_resource!
@@ -15,7 +13,6 @@ module Genius
       @unread_main_activity_inbox_count = resource["unread_main_activity_inbox_count"]
       @avatar = resource["avatar"]
       @about_me = formatted_attribute("about_me")
-      @channel_iqs = resource["channel_iqs"]
       @identities = resource["identities"]
       @name = resource["name"]
       @tracking_paths = resource["tracking_paths"]
@@ -30,7 +27,7 @@ module Genius
     end
 
     def self.find(id, params: {}, headers: {})
-      raise NotImplementedError, "A User cannot be loaded by its ID in the public API"
+      raise NotImplementedError, "An Account cannot be loaded by its ID in the public API"
     end
 
     def self.me(params = {})

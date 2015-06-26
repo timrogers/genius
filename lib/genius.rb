@@ -19,8 +19,4 @@ module Genius
       @text_format || PLAIN_TEXT_FORMAT
     end
   end
-
-  def self.search(query, options = {})
-    response = get
-  end
 end

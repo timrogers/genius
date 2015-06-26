@@ -1,0 +1,133 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.genius.com/songs/176872?text_format=plain
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 26 Jun 2015 19:27:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4187'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d8fdc4e9b1dc163f47f92a0d3661bd28c1435346877; expires=Sat, 25-Jun-16
+        19:27:57 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 200 OK
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Runtime:
+      - '171'
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Etag:
+      - '"27d97caa6482f738df0a488c5c2bb231"'
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 1fcb5002eab806d6-LHR
+    body:
+      encoding: UTF-8
+      string: '{"response":{"song":{"current_user_metadata":{"interactions":{"pyong":false},"permissions":["moderate_annotations","create_annotation"]},"media":[{"type":"video","provider":"youtube","url":"http://www.youtube.com/watch?v=rF-hq_CHNH0"}],"title":"Versace","producer_artists":[{"image_url":"http://s3.amazonaws.com/rapgenius/Zaytoven_1-7-2011.jpg","name":"Zaytoven","id":27822,"url":"http://genius.com/artists/Zaytoven"}],"featured_artists":[{"image_url":"http://images.rapgenius.com/c6974d4b134404f62d39acbf4fb51844.480x240x174.gif","name":"Drake","id":130,"url":"http://genius.com/artists/Drake"}],"pyongs_count":198,"writer_artists":[],"description":{"plain":"After
+        this Zaytoven-produced beat was originally taken by Plies for \"Bitch a Hoe\"
+        and then to Soulja Boy Tell \u2018Em for \"OMG Pt. 2\", it landed on Migos\u2019
+        Y.R.N (Young Rich Niggas) Mixtape in the form of \"Versace.\" When the song
+        blew up and came to the attention of Drake, he rapped a verse to create this
+        remix and made the song even more famous."},"verified_annotations_by":[{"role_for_display":"verified_artist","iq":1156.0,"avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/95ce12cc798550dcd2539025a3cf1b57"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/95ce12cc798550dcd2539025a3cf1b57"}},"name":"Migos","id":938958}],"api_path":"/songs/176872","annotation_count":1,"primary_artist":{"image_url":"http://images.rapgenius.com/f6bd7db3498f5cdf27cd747a4a02df13.700x420x1.jpg","name":"Migos","id":44080,"url":"http://genius.com/artists/Migos"},"description_annotation":{"annotatable":{"title":"Versace","type":"Song","id":176872,"url":"http://genius.com/Migos-versace-lyrics"},"annotations":[{"current_user_metadata":{"interactions":{"vote":null,"cosign":false},"permissions":[]},"share_url":"http://genius.com/3833651","pinned":false,"body":{"plain":"After
+        this Zaytoven-produced beat was originally taken by Plies for \"Bitch a Hoe\"
+        and then to Soulja Boy Tell \u2018Em for \"OMG Pt. 2\", it landed on Migos\u2019
+        Y.R.N (Young Rich Niggas) Mixtape in the form of \"Versace.\" When the song
+        blew up and came to the attention of Drake, he rapped a verse to create this
+        remix and made the song even more famous."},"comment_count":1,"votes_total":3,"verified_by":null,"authors":[{"attribution":0.546139359698682,"user":{"role_for_display":null,"iq":2174.48294748501,"avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://s3.amazonaws.com/rapgenius/avatars/tiny/f9446ee7048f2629fee024462a7b00cc.jpeg"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://s3.amazonaws.com/rapgenius/avatars/thumb/f9446ee7048f2629fee024462a7b00cc.jpeg"}},"name":"AnonymousPkowian","id":242936}},{"attribution":0.425612052730697,"user":{"role_for_display":null,"iq":457.950572763012,"avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://s3.amazonaws.com/rapgenius/avatars/tiny/lXZtm1i4SlSZaCSfY2tA.png"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://s3.amazonaws.com/rapgenius/avatars/thumb/lXZtm1i4SlSZaCSfY2tA.png"}},"name":"TheRealSappy","id":135054}},{"attribution":0.0282485875706215,"user":{"role_for_display":"moderator","iq":43942.5749238483,"avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/494a521d3e55c0891b007707a07304fb"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/494a521d3e55c0891b007707a07304fb"}},"name":"Superflyronald","id":131}}],"state":"accepted","cosigned_by":[],"id":3833651,"url":"http://genius.com/3833651/Migos-versace/Versace"}],"annotator_id":135054,"path":"/3833651/Migos-versace/Versace","classification":"accepted","song_id":176872,"fragment":"Versace","range":{"content":"Versace"},"api_path":"/referents/3833651","id":3833651,"url":"http://genius.com/3833651/Migos-versace/Versace"},"header_image_url":"http://images.rapgenius.com/f6bd7db3498f5cdf27cd747a4a02df13.700x420x1.jpg","id":176872,"stats":{"pageviews":2256108,"hot":false,"concurrents":2},"url":"http://genius.com/Migos-versace-lyrics"}},"meta":{"status":200}}'
+    http_version:
+  recorded_at: Fri, 26 Jun 2015 19:27:58 GMT
+- request:
+    method: get
+    uri: https://api.genius.com/songs/176872?text_format=plain
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 26 Jun 2015 20:19:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4187'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d64a4e2e2bbd25d01fe4d59b9618faf641435349979; expires=Sat, 25-Jun-16
+        20:19:39 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 200 OK
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      X-Runtime:
+      - '255'
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Etag:
+      - '"c6debf42ec391647785ded8670fb11d6"'
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 1fcb9bbc7b9806d6-LHR
+    body:
+      encoding: UTF-8
+      string: '{"response":{"song":{"current_user_metadata":{"permissions":["moderate_annotations","create_annotation"],"interactions":{"pyong":false}},"media":[{"type":"video","provider":"youtube","url":"http://www.youtube.com/watch?v=rF-hq_CHNH0"}],"title":"Versace","verified_annotations_by":[{"iq":1156.0,"role_for_display":"verified_artist","avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/95ce12cc798550dcd2539025a3cf1b57"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/95ce12cc798550dcd2539025a3cf1b57"}},"name":"Migos","id":938958}],"producer_artists":[{"image_url":"http://s3.amazonaws.com/rapgenius/Zaytoven_1-7-2011.jpg","name":"Zaytoven","id":27822,"url":"http://genius.com/artists/Zaytoven"}],"writer_artists":[],"description":{"plain":"After
+        this Zaytoven-produced beat was originally taken by Plies for \"Bitch a Hoe\"
+        and then to Soulja Boy Tell \u2018Em for \"OMG Pt. 2\", it landed on Migos\u2019
+        Y.R.N (Young Rich Niggas) Mixtape in the form of \"Versace.\" When the song
+        blew up and came to the attention of Drake, he rapped a verse to create this
+        remix and made the song even more famous."},"primary_artist":{"image_url":"http://images.rapgenius.com/f6bd7db3498f5cdf27cd747a4a02df13.700x420x1.jpg","name":"Migos","id":44080,"url":"http://genius.com/artists/Migos"},"api_path":"/songs/176872","featured_artists":[{"image_url":"http://images.rapgenius.com/c6974d4b134404f62d39acbf4fb51844.480x240x174.gif","name":"Drake","id":130,"url":"http://genius.com/artists/Drake"}],"pyongs_count":198,"description_annotation":{"annotatable":{"title":"Versace","type":"Song","id":176872,"url":"http://genius.com/Migos-versace-lyrics"},"annotations":[{"current_user_metadata":{"permissions":[],"interactions":{"vote":null,"cosign":false}},"verified_by":null,"share_url":"http://genius.com/3833651","pinned":false,"body":{"plain":"After
+        this Zaytoven-produced beat was originally taken by Plies for \"Bitch a Hoe\"
+        and then to Soulja Boy Tell \u2018Em for \"OMG Pt. 2\", it landed on Migos\u2019
+        Y.R.N (Young Rich Niggas) Mixtape in the form of \"Versace.\" When the song
+        blew up and came to the attention of Drake, he rapped a verse to create this
+        remix and made the song even more famous."},"comment_count":1,"cosigned_by":[],"votes_total":3,"authors":[{"attribution":0.546139359698682,"user":{"iq":2174.48294748501,"role_for_display":null,"avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://s3.amazonaws.com/rapgenius/avatars/tiny/f9446ee7048f2629fee024462a7b00cc.jpeg"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://s3.amazonaws.com/rapgenius/avatars/thumb/f9446ee7048f2629fee024462a7b00cc.jpeg"}},"name":"AnonymousPkowian","id":242936}},{"attribution":0.425612052730697,"user":{"iq":457.950572763012,"role_for_display":null,"avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://s3.amazonaws.com/rapgenius/avatars/tiny/lXZtm1i4SlSZaCSfY2tA.png"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://s3.amazonaws.com/rapgenius/avatars/thumb/lXZtm1i4SlSZaCSfY2tA.png"}},"name":"TheRealSappy","id":135054}},{"attribution":0.0282485875706215,"user":{"iq":43943.2210776945,"role_for_display":"moderator","avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/494a521d3e55c0891b007707a07304fb"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/494a521d3e55c0891b007707a07304fb"}},"name":"Superflyronald","id":131}}],"state":"accepted","id":3833651,"url":"http://genius.com/3833651/Migos-versace/Versace"}],"annotator_id":135054,"path":"/3833651/Migos-versace/Versace","classification":"accepted","song_id":176872,"fragment":"Versace","range":{"content":"Versace"},"api_path":"/referents/3833651","id":3833651,"url":"http://genius.com/3833651/Migos-versace/Versace"},"header_image_url":"http://images.rapgenius.com/f6bd7db3498f5cdf27cd747a4a02df13.700x420x1.jpg","id":176872,"stats":{"pageviews":2256135,"hot":false,"concurrents":2},"annotation_count":1,"url":"http://genius.com/Migos-versace-lyrics"}},"meta":{"status":200}}'
+    http_version:
+  recorded_at: Fri, 26 Jun 2015 20:19:40 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.genius.com/artists/bahahaha?text_format=plain
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 26 Jun 2015 20:38:49 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d12a2b77d87a62145e1c39558fa6b064e1435351129; expires=Sat, 25-Jun-16
+        20:38:49 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 404 Not Found
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      X-Runtime:
+      - '3'
+      Cache-Control:
+      - no-cache
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 1fcbb7cde2500cb3-LHR
+    body:
+      encoding: UTF-8
+      string: '{"meta":{"status":404,"message":"404 Not Found"}}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 20:38:49 GMT
+recorded_with: VCR 2.5.0

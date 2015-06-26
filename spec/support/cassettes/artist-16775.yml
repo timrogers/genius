@@ -1,0 +1,325 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.genius.com/artists/16775?text_format=plain
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 26 Jun 2015 20:38:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '5830'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d15c191f4e9e85b889610da6db771858b1435351127; expires=Sat, 25-Jun-16
+        20:38:47 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 200 OK
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Etag:
+      - '"756301d7fcd25a1a474dbc8c3ed7814b"'
+      X-Runtime:
+      - '78'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 1fcbb7c2efaa0a90-LHR
+    body:
+      encoding: UTF-8
+      string: '{"response":{"artist":{"user":{"role_for_display":"verified_artist","iq":3745.0,"avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/53de8eb7026ab0d16eb4d6dcfaecf824"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/53de8eb7026ab0d16eb4d6dcfaecf824"}},"name":"Sia","id":656681},"description":{"plain":"Sia
+        Kate Isobelle Furler (born December 18, 1975) or simply Sia, is an Australian
+        pop and jazz singer and songwriter. Her mid-2010 international tour was cancelled
+        with Sia citing extreme lethargy and panic attacks. She considered retiring
+        from touring permanently until she was diagnosed with Graves'' disease \u2013
+        an autoimmune disorder with an over-active thyroid. After resting and hormone
+        replacement therapy, Sia resumed touring with gigs in Australia, the U.S.
+        and Canada during 2011. Sia is the niece of singer-songwriter Colin Hay of
+        Men at Work.\n\nIn the early 1990s, Sia started gigging in the Adelaide acid
+        jazz scene and at the age of 17-years-old joined the jazz funk band, Crisp.
+        The group released two albums, 1996\u2019s Word and the Deal and Delerium
+        in 1997.\n\nBy 1997, Sia had left Crisp and as a trip hop artist, released
+        her debut solo album OnlySee. It was produced by former Crisp band mate Jesse
+        Flavell, who also wrote most of the tracks.\n\nIn 2000, Sia signed a recording
+        contract with the Sony Music sub-label Dance Pool. While living in London,
+        she performed backing vocals for Jamiroquai. In 2001 she released her second
+        solo album, Healing is Difficult an eclectic mix of R&B and jazz, that was
+        favorably received by critics. All the tracks were written or co-written by
+        Sia and it was co-produced by Sia and Blair Mackichan. The album included
+        the songs \u201cDrink To Get Drunk\u201d and \u201cLittle Black Sandals\u201c
+        which became popular in U.K. nightclubs. The album\u2019s single \u201cTaken
+        for Granted,\u201d reached #10 on the U.K. Singles chart in June 2000.\n\nUnhappy
+        with the promotion of the album, Sia fired her manager, left Sony Music and
+        signed with Go! Beat Records, a subsidiary of UMG.\n\nHer third album, Colour
+        the Small One, was released in Australia and Europe in 2004. This downtempo
+        album had Sia employing a mixture of acoustic instruments and electronic backing
+        to her material. It featured \u201cThe Bully,\u201d which was a collaboration
+        with American musician Beck. Two further songs were co-written with Beck and
+        recorded, but have yet to be released. Colour the Small One spawned the singles
+        \u201cBreathe Me\u201d and \u201cWhere I Belong.\u201d Six tracks on the album
+        were co-written with her bass guitarist, Samuel Dixon.\n\nIn early 2005, Sia
+        left Go! Beat Records, disappointed at the company\u2019s poor promotion of
+        the album, and the failure of the label\u2019s U.S. counterpart to pick up
+        the record. She relocated to New York City. Meanwhile, \u201cBreathe Me\u201d
+        appeared on the series finale of the HBO television series \u201cSix Feet
+        Under\u201d and the broadcast of the 2006 \u201cVictoria\u2019s Secret Fashion
+        Show.\u201d The track had been licensed to Astralwerks and \u201cColour the
+        Small One\u201d was given an American release by that label in early 2006.\n\nSia
+        provided vocals for English downtempo group Zero 7 on their first three studio
+        albums and has toured with the band. She is heard on their hit singles \u201cDestiny\u201d
+        and \u201cDistractions\u201d from their 2001 debut album, Simple Things. Their
+        second album, When It Falls appeared in 2004 and featured Sia voicing \u201cThe
+        Shining\u201d and \u201cSpeed Dial No. 2.\u201d Their third album, 2006\u2019s
+        The Garden, found six contributions from Furler, with two, \u201cThrow It
+        All Away\u201d and \u201cYou\u2019re My Flame\u201d released as singles in
+        the U.K. and North America.\n\nIn 2007, Sia released a live album, Lady Croissant,
+        in the U.S. It featured eight live songs from her April 2006 performance at
+        New York\u2019s Bowery Ballroom. One new studio track, \u201cPictures,\u201d
+        was included on the album.\n\nSia\u2019s fourth studio album, \u201cSome People
+        Have Real Problems,\u201d was released in 2008 and peaked in the Top 30 of
+        the Billboard 200 Albums chart. The album\u2019s featured singles included
+        \u201cDay Too Soon,\u201d \u201cThe Girl You Lost to Cocaine\u201d and \u201cSoon
+        We\u2019ll Be Found.\u201d Beck lent backing vocals to the songs, \u201cAcademia\u201d
+        and \u201cDeath By Chocolate.\u201d\n\nSia approached Christina Aguilera\u2019s
+        manager in 2007 to record \u201cDeath by Chocolate\u201d and Aguilera contacted
+        Sia herself. During 2009, Sia and Dixon collaborated with Aguilera on tracks
+        for the U.S. artist\u2019s sixth studio album, 2010\u2019s Bionic. Three of
+        the songs were included on the standard version and a fourth was included
+        on the deluxe edition.\n\nSia, Aguilera and Dixon also co-wrote \u201cBound
+        to You\u201d for the soundtrack of the feature film, Burlesque, which was
+        performed by Aguilera. \u201cBound to You\u201d was nominated for the 2010
+        Golden Globe Award for Best Original Song.\n\nIn 2010 Sia released, We Are
+        Born, which was produced by Greg Kurstin and featured guitar from The Strokes\u2018
+        Nick Valensi. We Are Born debuted at #2 on the Australian Albums chart and
+        was Sia\u2019s first Top 10 release in her home country. The album featured
+        a cover of the Madonna song, \u201cOh Father.\u201d\n\nHer latest album 1000
+        Forms of Fear was released in 2014 and is her most successful album to date,
+        with the top 10 single \u201cChandelier\u201d."},"name":"Sia","image_url":"http://images.rapgenius.com/de1b2bbca8e366211c986f5680e1c1dc.650x430x1.jpg","tracking_paths":{"concurrent":"/artists/Sia","aggregate":"/artists/Sia"},"id":16775,"url":"http://genius.com/artists/Sia"}},"meta":{"status":200}}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 20:38:47 GMT
+- request:
+    method: get
+    uri: https://api.genius.com/artists/16775?text_format=plain
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 26 Jun 2015 20:38:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '5830'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=da08198359dd869785086928155a20d761435351127; expires=Sat, 25-Jun-16
+        20:38:47 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 200 OK
+      X-Runtime:
+      - '93'
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      Etag:
+      - '"66738c24258ecf0ae872234582bbe757"'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 1fcbb7c5ddc40628-LHR
+    body:
+      encoding: UTF-8
+      string: '{"response":{"artist":{"user":{"role_for_display":"verified_artist","avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/53de8eb7026ab0d16eb4d6dcfaecf824"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/53de8eb7026ab0d16eb4d6dcfaecf824"}},"iq":3745.0,"name":"Sia","id":656681},"description":{"plain":"Sia
+        Kate Isobelle Furler (born December 18, 1975) or simply Sia, is an Australian
+        pop and jazz singer and songwriter. Her mid-2010 international tour was cancelled
+        with Sia citing extreme lethargy and panic attacks. She considered retiring
+        from touring permanently until she was diagnosed with Graves'' disease \u2013
+        an autoimmune disorder with an over-active thyroid. After resting and hormone
+        replacement therapy, Sia resumed touring with gigs in Australia, the U.S.
+        and Canada during 2011. Sia is the niece of singer-songwriter Colin Hay of
+        Men at Work.\n\nIn the early 1990s, Sia started gigging in the Adelaide acid
+        jazz scene and at the age of 17-years-old joined the jazz funk band, Crisp.
+        The group released two albums, 1996\u2019s Word and the Deal and Delerium
+        in 1997.\n\nBy 1997, Sia had left Crisp and as a trip hop artist, released
+        her debut solo album OnlySee. It was produced by former Crisp band mate Jesse
+        Flavell, who also wrote most of the tracks.\n\nIn 2000, Sia signed a recording
+        contract with the Sony Music sub-label Dance Pool. While living in London,
+        she performed backing vocals for Jamiroquai. In 2001 she released her second
+        solo album, Healing is Difficult an eclectic mix of R&B and jazz, that was
+        favorably received by critics. All the tracks were written or co-written by
+        Sia and it was co-produced by Sia and Blair Mackichan. The album included
+        the songs \u201cDrink To Get Drunk\u201d and \u201cLittle Black Sandals\u201c
+        which became popular in U.K. nightclubs. The album\u2019s single \u201cTaken
+        for Granted,\u201d reached #10 on the U.K. Singles chart in June 2000.\n\nUnhappy
+        with the promotion of the album, Sia fired her manager, left Sony Music and
+        signed with Go! Beat Records, a subsidiary of UMG.\n\nHer third album, Colour
+        the Small One, was released in Australia and Europe in 2004. This downtempo
+        album had Sia employing a mixture of acoustic instruments and electronic backing
+        to her material. It featured \u201cThe Bully,\u201d which was a collaboration
+        with American musician Beck. Two further songs were co-written with Beck and
+        recorded, but have yet to be released. Colour the Small One spawned the singles
+        \u201cBreathe Me\u201d and \u201cWhere I Belong.\u201d Six tracks on the album
+        were co-written with her bass guitarist, Samuel Dixon.\n\nIn early 2005, Sia
+        left Go! Beat Records, disappointed at the company\u2019s poor promotion of
+        the album, and the failure of the label\u2019s U.S. counterpart to pick up
+        the record. She relocated to New York City. Meanwhile, \u201cBreathe Me\u201d
+        appeared on the series finale of the HBO television series \u201cSix Feet
+        Under\u201d and the broadcast of the 2006 \u201cVictoria\u2019s Secret Fashion
+        Show.\u201d The track had been licensed to Astralwerks and \u201cColour the
+        Small One\u201d was given an American release by that label in early 2006.\n\nSia
+        provided vocals for English downtempo group Zero 7 on their first three studio
+        albums and has toured with the band. She is heard on their hit singles \u201cDestiny\u201d
+        and \u201cDistractions\u201d from their 2001 debut album, Simple Things. Their
+        second album, When It Falls appeared in 2004 and featured Sia voicing \u201cThe
+        Shining\u201d and \u201cSpeed Dial No. 2.\u201d Their third album, 2006\u2019s
+        The Garden, found six contributions from Furler, with two, \u201cThrow It
+        All Away\u201d and \u201cYou\u2019re My Flame\u201d released as singles in
+        the U.K. and North America.\n\nIn 2007, Sia released a live album, Lady Croissant,
+        in the U.S. It featured eight live songs from her April 2006 performance at
+        New York\u2019s Bowery Ballroom. One new studio track, \u201cPictures,\u201d
+        was included on the album.\n\nSia\u2019s fourth studio album, \u201cSome People
+        Have Real Problems,\u201d was released in 2008 and peaked in the Top 30 of
+        the Billboard 200 Albums chart. The album\u2019s featured singles included
+        \u201cDay Too Soon,\u201d \u201cThe Girl You Lost to Cocaine\u201d and \u201cSoon
+        We\u2019ll Be Found.\u201d Beck lent backing vocals to the songs, \u201cAcademia\u201d
+        and \u201cDeath By Chocolate.\u201d\n\nSia approached Christina Aguilera\u2019s
+        manager in 2007 to record \u201cDeath by Chocolate\u201d and Aguilera contacted
+        Sia herself. During 2009, Sia and Dixon collaborated with Aguilera on tracks
+        for the U.S. artist\u2019s sixth studio album, 2010\u2019s Bionic. Three of
+        the songs were included on the standard version and a fourth was included
+        on the deluxe edition.\n\nSia, Aguilera and Dixon also co-wrote \u201cBound
+        to You\u201d for the soundtrack of the feature film, Burlesque, which was
+        performed by Aguilera. \u201cBound to You\u201d was nominated for the 2010
+        Golden Globe Award for Best Original Song.\n\nIn 2010 Sia released, We Are
+        Born, which was produced by Greg Kurstin and featured guitar from The Strokes\u2018
+        Nick Valensi. We Are Born debuted at #2 on the Australian Albums chart and
+        was Sia\u2019s first Top 10 release in her home country. The album featured
+        a cover of the Madonna song, \u201cOh Father.\u201d\n\nHer latest album 1000
+        Forms of Fear was released in 2014 and is her most successful album to date,
+        with the top 10 single \u201cChandelier\u201d."},"tracking_paths":{"aggregate":"/artists/Sia","concurrent":"/artists/Sia"},"name":"Sia","image_url":"http://images.rapgenius.com/de1b2bbca8e366211c986f5680e1c1dc.650x430x1.jpg","id":16775,"url":"http://genius.com/artists/Sia"}},"meta":{"status":200}}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 20:38:48 GMT
+- request:
+    method: get
+    uri: https://api.genius.com/artists/16775/songs?id=16775&text_format=plain
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 26 Jun 2015 20:43:19 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '8192'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d442184f9d1e21519e5cc8b7ccbdc70e71435351398; expires=Sat, 25-Jun-16
+        20:43:18 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 200 OK
+      X-Runtime:
+      - '374'
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - '"51c1054e0b05ad385c70ebbbbcda39a6"'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 1fcbbe62897b06be-LHR
+    body:
+      encoding: UTF-8
+      string: '{"response":{"songs":[{"title":"1000 Forms of Fear Tracklist and Album
+        Artwork","primary_artist":{"image_url":"http://images.rapgenius.com/de1b2bbca8e366211c986f5680e1c1dc.650x430x1.jpg","name":"Sia","id":16775,"url":"http://genius.com/artists/Sia"},"annotation_count":1,"pyongs_count":7,"id":442856,"header_image_url":"http://images.rapgenius.com/97bc06dd9e815cfc5ebbdd26a8099e01.640x640x1.jpg","url":"http://genius.com/Sia-1000-forms-of-fear-tracklist-and-album-artwork-lyrics"},{"title":"Academia","primary_artist":{"image_url":"http://images.rapgenius.com/de1b2bbca8e366211c986f5680e1c1dc.650x430x1.jpg","name":"Sia","id":16775,"url":"http://genius.com/artists/Sia"},"annotation_count":1,"pyongs_count":1,"id":511110,"header_image_url":"http://images.rapgenius.com/69039246171b87edd2c86ba6197e5810.500x500x1.png","url":"http://genius.com/Sia-academia-lyrics"},{"title":"All
+        I Need","primary_artist":{"image_url":"http://images.rapgenius.com/aed1fb96f59f5d87a877d775c6415daa.1000x750x1.jpg","name":"Christina
+        Aguilera","id":1211,"url":"http://genius.com/artists/Christina-aguilera"},"annotation_count":1,"pyongs_count":null,"id":204971,"header_image_url":"http://images.rapgenius.com/958309738faf387025d4bbb391043fbe.1000x1000x1.jpg","url":"http://genius.com/Christina-aguilera-all-i-need-lyrics"},{"title":"Asrep
+        Onosim","primary_artist":{"image_url":"http://images.rapgenius.com/de1b2bbca8e366211c986f5680e1c1dc.650x430x1.jpg","name":"Sia","id":16775,"url":"http://genius.com/artists/Sia"},"annotation_count":1,"pyongs_count":4,"id":542614,"header_image_url":"http://images.rapgenius.com/224efa4aa0a65a181b222c3e09527ada.1000x1000x1.jpg","url":"http://genius.com/Sia-asrep-onosim-lyrics"},{"title":"Bang
+        My Head","primary_artist":{"image_url":"http://images.rapgenius.com/81e96b06d73cf08c7726b4d68cdf4d64.650x430x1.jpg","name":"David
+        Guetta","id":2578,"url":"http://genius.com/artists/David-guetta"},"annotation_count":1,"pyongs_count":5,"id":589629,"header_image_url":"http://images.rapgenius.com/d7139d605c21c9a8ebf1aed21e8c122e.1000x1000x1.png","url":"http://genius.com/David-guetta-bang-my-head-lyrics"},{"title":"Battle
+        Cry","primary_artist":{"image_url":"http://images.rapgenius.com/eb9aaa239c7ae9e348f7531204943588.650x430x1.jpg","name":"Angel
+        Haze","id":13756,"url":"http://genius.com/artists/Angel-haze"},"annotation_count":1,"pyongs_count":20,"id":328848,"header_image_url":"http://images.rapgenius.com/4890084144da97ab8408130d90ede415.560x558x1.png","url":"http://genius.com/Angel-haze-battle-cry-lyrics"},{"title":"Beautiful
+        Calm Driving","primary_artist":{"image_url":"http://images.rapgenius.com/de1b2bbca8e366211c986f5680e1c1dc.650x430x1.jpg","name":"Sia","id":16775,"url":"http://genius.com/artists/Sia"},"annotation_count":1,"pyongs_count":1,"id":502169,"header_image_url":"http://images.rapgenius.com/69039246171b87edd2c86ba6197e5810.500x500x1.png","url":"http://genius.com/Sia-beautiful-calm-driving-lyrics"},{"title":"Beautiful
+        Pain","primary_artist":{"image_url":"http://images.rapgenius.com/020c8175330dccb2360fb6bc2c42a199.619x412x1.jpg","name":"Eminem","id":45,"url":"http://genius.com/artists/Eminem"},"annotation_count":1,"pyongs_count":174,"id":239834,"header_image_url":"http://images.rapgenius.com/e7o3lh3xi4wjdjbfufh5h4wmy.300x300x1.png","url":"http://genius.com/Eminem-beautiful-pain-lyrics"},{"title":"Beautiful
+        People","primary_artist":{"image_url":"http://images.rapgenius.com/0b37a2b5f4681a36879f42d5a9ca3243.600x600x1.jpg","name":"Wiz
+        Khalifa","id":310,"url":"http://genius.com/artists/Wiz-khalifa"},"annotation_count":1,"pyongs_count":4,"id":719823,"header_image_url":"http://images.rapgenius.com/0b37a2b5f4681a36879f42d5a9ca3243.600x600x1.jpg","url":"http://genius.com/Wiz-khalifa-beautiful-people-lyrics"},{"title":"Be
+        Good To Me","primary_artist":{"image_url":"http://images.rapgenius.com/de1b2bbca8e366211c986f5680e1c1dc.650x430x1.jpg","name":"Sia","id":16775,"url":"http://genius.com/artists/Sia"},"annotation_count":1,"pyongs_count":2,"id":381891,"header_image_url":"http://images.rapgenius.com/928a883a7d32f54bf7fdfec3b5a51ff0.500x500x1.jpg","url":"http://genius.com/Sia-be-good-to-me-lyrics"},{"title":"Big
+        Girls Cry","primary_artist":{"image_url":"http://images.rapgenius.com/de1b2bbca8e366211c986f5680e1c1dc.650x430x1.jpg","name":"Sia","id":16775,"url":"http://genius.com/artists/Sia"},"annotation_count":1,"pyongs_count":36,"id":460807,"header_image_url":"http://images.rapgenius.com/97bc06dd9e815cfc5ebbdd26a8099e01.640x640x1.jpg","url":"http://genius.com/Sia-big-girls-cry-lyrics"},{"title":"Blank
+        Page","primary_artist":{"image_url":"http://images.rapgenius.com/aed1fb96f59f5d87a877d775c6415daa.1000x750x1.jpg","name":"Christina
+        Aguilera","id":1211,"url":"http://genius.com/artists/Christina-aguilera"},"annotation_count":1,"pyongs_count":null,"id":129726,"header_image_url":"http://s3.amazonaws.com/rapgenius/christina-aguilera-lotus-deluxe-edition-1353363100.jpg","url":"http://genius.com/Christina-aguilera-blank-page-lyrics"},{"title":"Blow
+        It All Away","primary_artist":{"image_url":"http://images.rapgenius.com/de1b2bbca8e366211c986f5680e1c1dc.650x430x1.jpg","name":"Sia","id":16775,"url":"http://genius.com/artists/Sia"},"annotation_count":1,"pyongs_count":1,"id":538324,"header_image_url":"http://images.rapgenius.com/2517a7dbf40069a0f75fc4860711d820.925x922x1.jpg","url":"http://genius.com/Sia-blow-it-all-away-lyrics"},{"title":"Bound
+        to You","primary_artist":{"image_url":"http://images.rapgenius.com/aed1fb96f59f5d87a877d775c6415daa.1000x750x1.jpg","name":"Christina
+        Aguilera","id":1211,"url":"http://genius.com/artists/Christina-aguilera"},"annotation_count":1,"pyongs_count":23,"id":56472,"header_image_url":"http://s3.amazonaws.com/rapgenius/burlesquecdcover-flat-rgb-medium.jpg","url":"http://genius.com/Christina-aguilera-bound-to-you-lyrics"},{"title":"Breathe
+        Me","primary_artist":{"image_url":"http://images.rapgenius.com/de1b2bbca8e366211c986f5680e1c1dc.650x430x1.jpg","name":"Sia","id":16775,"url":"http://genius.com/artists/Sia"},"annotation_count":1,"pyongs_count":43,"id":64291,"header_image_url":"http://images.rapgenius.com/73ecd11c13b7dee2eede09e121ad2f6e.500x500x1.jpg","url":"http://genius.com/Sia-breathe-me-lyrics"},{"title":"Bring
+        Night","primary_artist":{"image_url":"http://images.rapgenius.com/de1b2bbca8e366211c986f5680e1c1dc.650x430x1.jpg","name":"Sia","id":16775,"url":"http://genius.com/artists/Sia"},"annotation_count":1,"pyongs_count":null,"id":381893,"header_image_url":"http://images.rapgenius.com/928a883a7d32f54bf7fdfec3b5a51ff0.500x500x1.jpg","url":"http://genius.com/Sia-bring-night-lyrics"},{"title":"Burn
+        the Pages","primary_artist":{"image_url":"http://images.rapgenius.com/de1b2bbca8e366211c986f5680e1c1dc.650x430x1.jpg","name":"Sia","id":16775,"url":"http://genius.com/artists/Sia"},"annotation_count":1,"pyongs_count":10,"id":465915,"header_image_url":"http://images.rapgenius.com/97bc06dd9e815cfc5ebbdd26a8099e01.640x640x1.jpg","url":"http://genius.com/Sia-burn-the-pages-lyrics"},{"title":"Buttons","primary_artist":{"image_url":"http://images.rapgenius.com/de1b2bbca8e366211c986f5680e1c1dc.650x430x1.jpg","name":"Sia","id":16775,"url":"http://genius.com/artists/Sia"},"annotation_count":1,"pyongs_count":null,"id":538287,"header_image_url":"http://images.rapgenius.com/69039246171b87edd2c86ba6197e5810.500x500x1.png","url":"http://genius.com/Sia-buttons-lyrics"},{"title":"California
+        Dreamin''","primary_artist":{"image_url":"http://images.rapgenius.com/de1b2bbca8e366211c986f5680e1c1dc.650x430x1.jpg","name":"Sia","id":16775,"url":"http://genius.com/artists/Sia"},"annotation_count":1,"pyongs_count":4,"id":1783393,"header_image_url":"http://images.rapgenius.com/1b5bd4374579a9388e43636b0cc04efc.450x450x1.jpg","url":"http://genius.com/Sia-california-dreamin-lyrics"},{"title":"Cellophane","primary_artist":{"image_url":"http://images.rapgenius.com/de1b2bbca8e366211c986f5680e1c1dc.650x430x1.jpg","name":"Sia","id":16775,"url":"http://genius.com/artists/Sia"},"annotation_count":1,"pyongs_count":6,"id":465957,"header_image_url":"http://images.rapgenius.com/97bc06dd9e815cfc5ebbdd26a8099e01.640x640x1.jpg","url":"http://genius.com/Sia-cellophane-lyrics"}]},"meta":{"status":200}}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 20:43:19 GMT
+recorded_with: VCR 2.5.0

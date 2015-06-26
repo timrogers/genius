@@ -1,5 +1,3 @@
-require 'httparty'
-
 module Genius
   class WebPage < Resource
     resource_name "web_page"

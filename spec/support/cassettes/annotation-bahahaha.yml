@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.genius.com/annotations/bahahaha?text_format=plain
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 26 Jun 2015 20:29:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=df8c99d10141516901ef9247d7214c0b41435350556; expires=Sat, 25-Jun-16
+        20:29:16 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 404 Not Found
+      Cache-Control:
+      - no-cache
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Runtime:
+      - '5'
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 1fcba9d0068c0ce9-LHR
+    body:
+      encoding: UTF-8
+      string: '{"meta":{"status":404,"message":"404 Not Found"}}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 20:29:16 GMT
+recorded_with: VCR 2.5.0
