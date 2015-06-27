@@ -3,7 +3,7 @@ module Genius
     attr_reader :id, :url, :song_id, :annotator_id, :fragment, :range, :classification,
                 :annotatable, :annotations
 
-    def self.find(id, params: {}, headers: {})
+    def self.find(*)
       raise NotImplementedError, "A Referent cannot be loaded by its ID in the public API"
     end
 
