@@ -26,7 +26,7 @@ module Genius
       raise NotReloadableError, "An Account cannot be reloaded"
     end
 
-    def self.find(id, params: {}, headers: {})
+    def self.find(*)
       raise NotImplementedError, "An Account cannot be loaded by its ID in the public API"
     end
 
@@ -34,8 +34,9 @@ module Genius
       headers = default_headers.merge(params.delete(:headers) || {})
       params = default_params.merge(params)
 
-      new(http_get("/account", query: params, headers: headers),
-                               text_format: params[:text_format])
+      new(http_get("/account", query: params,
+                               headers: headers),
+          text_format: params[:text_format])
     end
   end
 end

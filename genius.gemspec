@@ -26,6 +26,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "mocha",     "~> 0.14.0"
   spec.add_development_dependency "webmock",   "~> 1.11.0"
   spec.add_development_dependency "vcr",       "~> 2.5.0"
+  spec.add_development_dependency "rubocop",   "~> 0.31.0"
 
   spec.add_runtime_dependency     "httparty",  "~> 0.11.0"
 end

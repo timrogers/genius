@@ -28,7 +28,7 @@ describe Genius::Artist do
       context "first" do
         subject { songs.first }
 
-        its(:title) { is_expected.to eq("1000 Forms of Fear Tracklist and Album Artwork") }
+        its(:title) { is_expected.to start_with("1000 Forms of Fear") }
         it { is_expected.to be_a(Genius::Song) }
       end
     end

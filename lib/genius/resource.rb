@@ -10,10 +10,7 @@ module Genius
     attr_reader :raw_response, :resource
 
     def self.resource_name(resource_name = nil)
-      if resource_name
-        @resource_name = resource_name
-      end
-
+      @resource_name = resource_name if resource_name
       @resource_name || name.downcase.split("::").last
     end
 
@@ -21,8 +18,10 @@ module Genius
       params = default_params.merge(params)
       headers = default_headers.merge(headers)
 
-      new(http_get("/#{resource_name}s/#{id}", query: params, headers: headers),
-                   text_format: params[:text_format])
+      new(http_get("/#{resource_name}s/#{id}",
+                   query: params,
+                   headers: headers),
+          text_format: params[:text_format])
     end
 
     def reload

@@ -38,12 +38,12 @@ describe Genius::Song do
     its(:lyrics_updated_at) { is_expected.to be_nil }
     its(:updated_by_human_at) { is_expected.to be_nil }
     its(:pyongs_count) { is_expected.to eq(198) }
-    its(:stats) { is_expected.to include({ "pageviews" => 2256108 }) }
+    its(:stats) { is_expected.to include("pageviews" => 2256108) }
 
     its(:current_user_metadata) do
-      is_expected.to eq({ "interactions" => { "pyong"=> false },
-                          "permissions" => ["moderate_annotations",
-                                            "create_annotation"] })
+      is_expected.to eq("interactions" => { "pyong"=> false },
+                        "permissions" => %w("moderate_annotations",
+                                            "create_annotation"))
     end
 
     describe "#verified_annotations_by" do
