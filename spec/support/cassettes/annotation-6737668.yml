@@ -118,4 +118,406 @@ http_interactions:
         Luxemburg","id":1545622}}],"state":"verified","id":6737668,"url":"http://genius.com/6737668/docs.genius.com"}},"meta":{"status":200}}'
     http_version: 
   recorded_at: Fri, 26 Jun 2015 20:32:50 GMT
+- request:
+    method: put
+    uri: https://api.genius.com/annotations/6737668/upvote
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 03 Jul 2015 09:45:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1951'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d36767b9638af5c49fa651e0bb92459a51435916706; expires=Sat, 02-Jul-16
+        09:45:06 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 200 OK
+      X-Runtime:
+      - '276'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Etag:
+      - '"410695ba2933a59eafd33f92693a94ab"'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 2001a7d96a06136b-LHR
+    body:
+      encoding: UTF-8
+      string: '{"response":{"annotation":{"pinned":false,"body":{"dom":{"children":[{"children":["In
+        this case, 6737668."],"tag":"p"}],"tag":"root"}},"current_user_metadata":{"interactions":{"cosign":false,"vote":"up"},"permissions":[]},"votes_total":1,"authors":[{"user":{"role_for_display":"regulator","avatar":{"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/b6585945ae081eee33c437722788c3ce"},"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/b6585945ae081eee33c437722788c3ce"}},"name":"Daniel
+        Luxemburg","id":1545622},"attribution":1.0}],"state":"verified","verified_by":{"iq":771,"current_user_metadata":{"permissions":["send_new_message","send_message"]},"about_me":{"dom":{"children":[{"children":["Not
+        a scientist."],"tag":"p"}],"tag":"root"}},"role_for_display":"regulator","api_path":"/users/1545622","artist":{"name":"Daniel
+        Luxemburg","id":345109,"image_url":null,"url":"http://genius.com/artists/Daniel-luxemburg"},"tracking_paths":{"aggregate":"/dluxemburg"},"avatar":{"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/b6585945ae081eee33c437722788c3ce"},"small":{"bounding_box":{"height":100,"width":100},"url":"http://images.rapgenius.com/avatars/small/b6585945ae081eee33c437722788c3ce"},"medium":{"bounding_box":{"height":400,"width":300},"url":"http://images.rapgenius.com/avatars/medium/b6585945ae081eee33c437722788c3ce"},"original":{"bounding_box":{"height":2000,"width":2000},"url":"http://images.rapgenius.com/avatars/original/b6585945ae081eee33c437722788c3ce"},"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/b6585945ae081eee33c437722788c3ce"}},"name":"Daniel
+        Luxemburg","id":1545622,"login":"dluxemburg"},"share_url":"http://genius.com/6737668","comment_count":0,"id":6737668,"url":"http://genius.com/6737668/docs.genius.com"}},"meta":{"status":200}}'
+    http_version: 
+  recorded_at: Fri, 03 Jul 2015 09:45:08 GMT
+- request:
+    method: put
+    uri: https://api.genius.com/annotations/6737668/unvote
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 03 Jul 2015 09:53:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1951'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=da3eb22b4f2e89026293717898d839af01435917194; expires=Sat, 02-Jul-16
+        09:53:14 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 200 OK
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Access-Control-Allow-Credentials:
+      - 'false'
+      X-Runtime:
+      - '186'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      Etag:
+      - '"52ba1a66aa5b3545b23dc7cc7c6c044f"'
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 2001b3c0952c0a8a-LHR
+    body:
+      encoding: UTF-8
+      string: '{"response":{"annotation":{"pinned":false,"body":{"dom":{"children":[{"children":["In
+        this case, 6737668."],"tag":"p"}],"tag":"root"}},"current_user_metadata":{"interactions":{"cosign":false,"vote":null},"permissions":[]},"votes_total":0,"comment_count":0,"authors":[{"user":{"role_for_display":"regulator","name":"Daniel
+        Luxemburg","id":1545622,"avatar":{"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/b6585945ae081eee33c437722788c3ce"},"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/b6585945ae081eee33c437722788c3ce"}}},"attribution":1.0}],"state":"verified","verified_by":{"current_user_metadata":{"permissions":["send_new_message","send_message"]},"about_me":{"dom":{"children":[{"children":["Not
+        a scientist."],"tag":"p"}],"tag":"root"}},"role_for_display":"regulator","api_path":"/users/1545622","artist":{"name":"Daniel
+        Luxemburg","id":345109,"image_url":null,"url":"http://genius.com/artists/Daniel-luxemburg"},"tracking_paths":{"aggregate":"/dluxemburg"},"name":"Daniel
+        Luxemburg","id":1545622,"avatar":{"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/b6585945ae081eee33c437722788c3ce"},"small":{"bounding_box":{"height":100,"width":100},"url":"http://images.rapgenius.com/avatars/small/b6585945ae081eee33c437722788c3ce"},"medium":{"bounding_box":{"height":400,"width":300},"url":"http://images.rapgenius.com/avatars/medium/b6585945ae081eee33c437722788c3ce"},"original":{"bounding_box":{"height":2000,"width":2000},"url":"http://images.rapgenius.com/avatars/original/b6585945ae081eee33c437722788c3ce"},"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/b6585945ae081eee33c437722788c3ce"}},"iq":771,"login":"dluxemburg"},"share_url":"http://genius.com/6737668","id":6737668,"url":"http://genius.com/6737668/docs.genius.com"}},"meta":{"status":200}}'
+    http_version: 
+  recorded_at: Fri, 03 Jul 2015 09:53:16 GMT
+- request:
+    method: put
+    uri: https://api.genius.com/annotations/6737668/downvote
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 03 Jul 2015 09:53:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1954'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d561ac73a2d35e278e8886bee0b7aa0041435917226; expires=Sat, 02-Jul-16
+        09:53:46 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 200 OK
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      X-Runtime:
+      - '739'
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      Etag:
+      - '"7a212e6e37e0956de346adda9588930e"'
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 2001b48b067506be-LHR
+    body:
+      encoding: UTF-8
+      string: '{"response":{"annotation":{"verified_by":{"current_user_metadata":{"permissions":["send_new_message","send_message"]},"about_me":{"dom":{"children":[{"children":["Not
+        a scientist."],"tag":"p"}],"tag":"root"}},"role_for_display":"regulator","api_path":"/users/1545622","avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/b6585945ae081eee33c437722788c3ce"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/b6585945ae081eee33c437722788c3ce"},"original":{"bounding_box":{"height":2000,"width":2000},"url":"http://images.rapgenius.com/avatars/original/b6585945ae081eee33c437722788c3ce"},"small":{"bounding_box":{"height":100,"width":100},"url":"http://images.rapgenius.com/avatars/small/b6585945ae081eee33c437722788c3ce"},"medium":{"bounding_box":{"height":400,"width":300},"url":"http://images.rapgenius.com/avatars/medium/b6585945ae081eee33c437722788c3ce"}},"name":"Daniel
+        Luxemburg","artist":{"image_url":null,"name":"Daniel Luxemburg","id":345109,"url":"http://genius.com/artists/Daniel-luxemburg"},"id":1545622,"tracking_paths":{"aggregate":"/dluxemburg"},"iq":771,"login":"dluxemburg"},"pinned":false,"body":{"dom":{"children":[{"children":["In
+        this case, 6737668."],"tag":"p"}],"tag":"root"}},"comment_count":0,"current_user_metadata":{"permissions":[],"interactions":{"cosign":false,"vote":"down"}},"authors":[{"user":{"role_for_display":"regulator","avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/b6585945ae081eee33c437722788c3ce"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/b6585945ae081eee33c437722788c3ce"}},"name":"Daniel
+        Luxemburg","id":1545622},"attribution":1.0}],"state":"verified","votes_total":-1,"id":6737668,"share_url":"http://genius.com/6737668","url":"http://genius.com/6737668/docs.genius.com"}},"meta":{"status":200}}'
+    http_version: 
+  recorded_at: Fri, 03 Jul 2015 09:53:49 GMT
+- request:
+    method: get
+    uri: https://api.genius.com/annotations/2734383?text_format=plain
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 03 Jul 2015 09:59:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '957'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d081a72ff8f6c8e353f1785ccd45f703c1435917581; expires=Sat, 02-Jul-16
+        09:59:41 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 200 OK
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Etag:
+      - '"f75592191bfd663e2977569d96e54ed3"'
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      X-Runtime:
+      - '69'
+      Access-Control-Allow-Origin:
+      - "*"
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 2001bd3357960cc5-LHR
+    body:
+      encoding: UTF-8
+      string: '{"response":{"annotation":{"pinned":false,"body":{"plain":"Getting
+        a visa to work in the United States isn\u2019t easy. It might even be more
+        more work than the work you\u2019ll be able to once you get it\u2026"},"current_user_metadata":{"permissions":[],"interactions":{"cosign":false,"vote":null}},"verified_by":null,"cosigned_by":[],"votes_total":-9,"authors":[{"user":{"iq":1142.63425752819,"role_for_display":"editor","name":"timrogers","id":128992,"avatar":{"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/3923e847bb227e6100b42f7d27d93478"},"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/3923e847bb227e6100b42f7d27d93478"}}},"attribution":1.0}],"state":"accepted","share_url":"http://genius.com/2734383","comment_count":1,"id":2734383,"url":"http://genius.com/2734383/A-ap-ferg-work-remix/Immigration-give-you-nothing-but-work"}},"meta":{"status":200}}'
+    http_version: 
+  recorded_at: Fri, 03 Jul 2015 09:59:43 GMT
+- request:
+    method: put
+    uri: https://api.genius.com/annotations/2734383
+    body:
+      encoding: UTF-8
+      string: annotation[body][markdown]=Getting%20a%20visa%20to%20work%20in%20the%20United%20States%20isn't%20easy.%20It%20might%20even%20be%20more%20more%20work%20than%20the%20work%20you'll%20be%20able%20to%20once%20you%20get%20it...
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 03 Jul 2015 10:04:15 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1024'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d3b74165ebdacebb60a43913327e5077b1435917854; expires=Sat, 02-Jul-16
+        10:04:14 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 200 OK
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      X-Runtime:
+      - '209'
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Etag:
+      - '"62ee1c35685619617b0ae94a0b6e75c6"'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 2001c3e0776d13a1-LHR
+    body:
+      encoding: UTF-8
+      string: '{"response":{"annotation":{"cosigned_by":[],"pinned":false,"body":{"dom":{"children":[{"children":["Getting
+        a visa to work in the United States isn\u2019t easy. It might even be more
+        more work than the work you\u2019ll be able to once you get it\u2026"],"tag":"p"}],"tag":"root"}},"current_user_metadata":{"permissions":["edit","destroy"],"interactions":{"cosign":false,"vote":null}},"votes_total":-9,"comment_count":1,"authors":[{"user":{"avatar":{"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/3923e847bb227e6100b42f7d27d93478"},"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/3923e847bb227e6100b42f7d27d93478"}},"iq":1142.63425752819,"role_for_display":"editor","name":"timrogers","id":128992},"attribution":1.0}],"state":"accepted","share_url":"http://genius.com/2734383","id":2734383,"verified_by":null,"url":"http://genius.com/2734383/A-ap-ferg-work-remix/Immigration-give-you-nothing-but-work"}},"meta":{"status":200}}'
+    http_version: 
+  recorded_at: Fri, 03 Jul 2015 10:04:15 GMT
+- request:
+    method: delete
+    uri: https://api.genius.com/annotations/6737668
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 403
+      message: Forbidden
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 03 Jul 2015 10:08:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '112'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d75fcf20a593b0e4aef741563c45f47f81435918125; expires=Sat, 02-Jul-16
+        10:08:45 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 403 Forbidden
+      X-Runtime:
+      - '52'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 2001ca7d312f134d-LHR
+    body:
+      encoding: UTF-8
+      string: '{"response":{"errors":["Sorry, you''re not allowed to do that"]},"meta":{"status":403,"message":"403
+        Forbidden"}}'
+    http_version: 
+  recorded_at: Fri, 03 Jul 2015 10:08:46 GMT
+- request:
+    method: delete
+    uri: https://api.genius.com/annotations/2734383
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 03 Jul 2015 10:10:02 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '39'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=df81d1be5a0ad28ebba35d33bc8deb8431435918199; expires=Sat, 02-Jul-16
+        10:09:59 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 200 OK
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Etag:
+      - '"70b51e54fd846eab6dcafafee039219b"'
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      X-Runtime:
+      - '2816'
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 2001cc4c61cb0616-LHR
+    body:
+      encoding: UTF-8
+      string: '{"response":null,"meta":{"status":200}}'
+    http_version: 
+  recorded_at: Fri, 03 Jul 2015 10:10:03 GMT
 recorded_with: VCR 2.5.0

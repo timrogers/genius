@@ -15,5 +15,44 @@ module Genius
       @id = resource["id"]
       @url = resource["url"]
     end
+
+    def update!(body = {})
+      response = self.class.http_put("/annotations/#{id}",
+                                     body: body,
+                                     headers: self.class.default_headers)
+
+      self.class.new(response, text_format: text_format)
+    end
+
+    def destroy!
+      self.class.http_delete("/annotations/#{id}", headers: self.class.default_headers)
+
+      true
+    end
+
+    def upvote!
+      self.class.http_put("/annotations/#{id}/upvote",
+                          headers: self.class.default_headers)
+
+      true
+    end
+
+    def unvote!
+      self.class.http_put("/annotations/#{id}/unvote",
+                          headers: self.class.default_headers)
+
+      true
+    end
+
+    def downvote!
+      self.class.http_put("/annotations/#{id}/downvote",
+                          headers: self.class.default_headers)
+
+      true
+    end
+
+    def self.create!(body = {})
+      new(http_post("/annotations", body: body, headers: default_headers))
+    end
   end
 end

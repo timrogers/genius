@@ -132,13 +132,16 @@ me.iq
 
 Check out [account.rb](https://github.com/timrogers/genius/blob/master/lib/genius/account.rb) or the [Genius API documentation](https://docs.genius.com/#account-h2) for a full list of available fields.
 
+### Other resources
+
+The API library also supports working with web pages, annotations and referents in the API. See the [Genius API documentation](https://docs.genius.com/#account-h2) and the library [source](https://github.com/timrogers/genius/tree/master/lib/genius).
 
 ## Contributing
 
 If you'd like to contribute anything else, go ahead or better still, make an issue and we can talk it over and spec it out! A few quick tips:
 
 * Don't update the version numbers before your pull request - I'll sort that part out for you.
-* Make sure you write specs, then run them with `$ bundle exec rake`
+* Make sure you write specs, then run them with `$ bundle exec rake`. When running tests, you'll want to set `GENIUS_ACCESS_TOKEN` so your requests can be authenticated - don't worry, your token will be filtered out of the `vcr` cassettes.
 * Update this README.md file so I, and users, know how your changes work
 
 ## Copyright

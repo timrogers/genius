@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.genius.com/annotations
+    body:
+      encoding: UTF-8
+      string: annotation[body][markdown]=This%20has%20now%20moved%20to%20%3Chttps%3A%2F%2Fgithub.com%2Ftimrogers%2Fgenius%3E.&referent[raw_annotatable_url]=http%3A%2F%2Ftimrogers.uk%2Fportfolio%2F&referent[fragment]=Rap%20Genius%20gem&referent[context_for_display][before_html]=%3Cdiv%20class%3D%22post%22%3E&referent[context_for_display][after_html]=%3Cp%20class%3D%22byline%22%3EAugust%202013%20-%20Present%3C%2Fp%3E&web_page[title]=Tim%20Rogers
+    headers:
+      Authorization:
+      - Bearer dummy-genius-access-token
+      User-Agent:
+      - genius.rb v0.1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 03 Jul 2015 10:19:44 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2746'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dd18932b03b3b96cf9edc67c7a4d9203e1435918783; expires=Sat, 02-Jul-16
+        10:19:43 GMT; path=/; domain=.genius.com; HttpOnly
+      Status:
+      - 200 OK
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      X-Runtime:
+      - '450'
+      Access-Control-Allow-Headers:
+      - Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Content-Type,
+        Accept, X-Auth-Token
+      Etag:
+      - '"39a58b496f060ce8350c3fc4cdfd652c"'
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 2001da8da6d81365-LHR
+    body:
+      encoding: UTF-8
+      string: '{"response":{"referent":{"classification":"accepted","annotatable":{"title":"Tim
+        Rogers","type":"WebPage","id":11989,"url":"http://genius.com/timrogers.uk/portfolio"},"path":"/7215006/timrogers.uk/portfolio","range":{"content":"Rap
+        Genius gem"},"fragment":"Rap Genius gem","annotator_id":128992,"api_path":"/referents/7215006","song_id":null,"id":7215006,"url":"http://genius.com/7215006/timrogers.uk/portfolio"},"annotation":{"comment_count":0,"pinned":false,"body":{"dom":{"children":[{"children":["This
+        has now moved to ",{"children":["https://github.com/timrogers/genius"],"attributes":{"rel":"nofollow","href":"https://github.com/timrogers/genius"},"tag":"a"},"."],"tag":"p"}],"tag":"root"}},"current_user_metadata":{"permissions":[],"interactions":{"cosign":false,"vote":null}},"authors":[{"user":{"role_for_display":"editor","avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/3923e847bb227e6100b42f7d27d93478"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/3923e847bb227e6100b42f7d27d93478"}},"name":"timrogers","id":128992},"attribution":1.0}],"state":"verified","votes_total":0,"id":7215007,"verified_by":{"current_user_metadata":{"permissions":["send_new_message","see_messages"]},"about_me":{"dom":{"children":[{"children":["21
+        year old guy from London, UK. I work as an engineer at GoCardless (a UK finance
+        startup), study at the London School of Economics and am a RapGenius editor."],"tag":"p"},"",{"children":["I
+        wanted a RapGenius API \u2014 so I built my own. ",{"children":["https://github.com/timrogers/rapgenius"],"attributes":{"rel":"nofollow","href":"https://github.com/timrogers/rapgenius"},"tag":"a"}],"tag":"p"}],"tag":"root"}},"role_for_display":"editor","api_path":"/users/128992","avatar":{"tiny":{"bounding_box":{"height":16,"width":16},"url":"http://images.rapgenius.com/avatars/tiny/3923e847bb227e6100b42f7d27d93478"},"thumb":{"bounding_box":{"height":32,"width":32},"url":"http://images.rapgenius.com/avatars/thumb/3923e847bb227e6100b42f7d27d93478"},"original":{"bounding_box":{"height":2000,"width":2000},"url":"http://images.rapgenius.com/avatars/original/3923e847bb227e6100b42f7d27d93478"},"small":{"bounding_box":{"height":100,"width":100},"url":"http://images.rapgenius.com/avatars/small/3923e847bb227e6100b42f7d27d93478"},"medium":{"bounding_box":{"height":400,"width":300},"url":"http://images.rapgenius.com/avatars/medium/3923e847bb227e6100b42f7d27d93478"}},"name":"timrogers","artist":null,"id":128992,"tracking_paths":{"aggregate":"/timrogers"},"iq":1690,"login":"timrogers"},"share_url":"http://genius.com/7215007","url":"http://genius.com/7215007/timrogers.uk/portfolio"}},"meta":{"status":200}}'
+    http_version:
+  recorded_at: Fri, 03 Jul 2015 10:19:44 GMT
+recorded_with: VCR 2.5.0
