@@ -42,8 +42,8 @@ describe Genius::Song do
 
     its(:current_user_metadata) do
       is_expected.to eq("interactions" => { "pyong"=> false },
-                        "permissions" => %w("moderate_annotations",
-                                            "create_annotation"))
+                        "permissions" => %w(moderate_annotations
+                                            create_annotation))
     end
 
     describe "#verified_annotations_by" do

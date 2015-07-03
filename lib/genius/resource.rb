@@ -30,7 +30,25 @@ module Genius
 
     def self.http_get(path, query: {}, headers: {})
       response = get(path, query: query, headers: headers)
+      handle_response(response)
+    end
 
+    def self.http_post(path, body: {}, headers: {})
+      response = post(path, body: body, headers: headers)
+      handle_response(response)
+    end
+
+    def self.http_put(path, body: {}, headers: {})
+      response = put(path, body: body, headers: headers)
+      handle_response(response)
+    end
+
+    def self.http_delete(path, headers: {})
+      response = delete(path, headers: headers)
+      handle_response(response)
+    end
+
+    def self.handle_response(response)
       case response.code
       when 404 then raise NotFoundError
       when 401, 403 then raise AuthenticationError

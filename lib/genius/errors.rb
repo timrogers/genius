@@ -1,6 +1,7 @@
 module Genius
-  class NotFoundError < StandardError; end
-  class AuthenticationError < StandardError; end
-  class MissingAccessTokenError < StandardError; end
-  class NotReloadableError < StandardError; end
+  class Error < StandardError; end
+  class NotFoundError < Error; end
+  class AuthenticationError < Error; end
+  class MissingAccessTokenError < Error; end
+  class NotReloadableError < Error; end
 end
