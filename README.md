@@ -15,7 +15,7 @@ It's a Ruby gem for accessing songs, artists and annotations on
 Install the gem, and you're ready to go. Simply add the following to your Gemfile:
 
 ```ruby
-gem "genius", "~> 0.1.1"
+gem "genius", "~> 0.1.2"
 ```
 
 ## Usage
